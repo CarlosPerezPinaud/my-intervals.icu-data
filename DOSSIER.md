@@ -1,16 +1,11 @@
 # Athlete Dossier: Section 11
 
 ## Physiology & Zones
-- **FTP:** 273W (Indoor/Outdoor)
-- **Resting HR:** 54 bpm
-- **Max HR:** 194 bpm
-- **LTHR:** 174 bpm
-- **Zones:** Standard Intervals.icu (Power & HR)
 - **Experience:** 1 year consistent training
 
 ## Training Context
 - **Primary Sport:** Road Cycling / eCycling
-- **Volume:** 9–12 hours/week (Target: Gradual increase)
+- **Volume:** 9–11 hours/week (Target: Gradual increase)
 - **Schedule:**
   - Mon: Gym (Legs/Upper)
   - Tue: Hard HT Session (High Intensity)
