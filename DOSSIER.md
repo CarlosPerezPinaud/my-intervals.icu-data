@@ -5,7 +5,7 @@
 
 ## Training Context
 - **Primary Sport:** Road Cycling / eCycling
-- **Volume:** 9–11 hours/week (Target: Gradual increase)
+- **Volume:** Current : 9–11 hours/week. Target: Gradual increase to sustain goal
 - **Schedule:**
   - Mon: Gym (Legs/Upper)
   - Tue: Hard HT Session (High Intensity)
