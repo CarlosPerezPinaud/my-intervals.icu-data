@@ -13,7 +13,7 @@
   - Thu: Hard HT Session (High Intensity)
   - Friday: Light HT Session (Recovery/Z1-Z2)
   - Saturday: Long Z2 Ride (Outdoor)
-  - Sunday: MyWhoosh SRC Virtual Race (Competition)
+  - Sunday: If the current training phase allows it : MyWhoosh SRC Virtual Race (Competition)
 
 ## Goals & Events
 - **Short-term:** Win SRC races and promote from Cat 4 to Cat 3/2.
