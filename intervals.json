@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T19:20:00.949807",
+  "generated_at": "2026-03-30T20:06:00.232218",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -144,6 +144,29 @@
           "duration_secs": 19858,
           "avg_hr": 98,
           "max_hr": 151,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i136001067",
+      "date": "2026-03-30",
+      "type": "VirtualRide",
+      "name": "Evening Virtual Ride",
+      "interval_summary": [
+        "1x 51m40s 108bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1
+        },
+        {
+          "type": "WORK",
+          "label": "3100s@108bpm",
+          "duration_secs": 3100,
+          "avg_hr": 108,
+          "max_hr": 119,
           "zone": 1
         }
       ]
