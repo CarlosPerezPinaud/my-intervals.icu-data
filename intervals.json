@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T05:51:28.234451",
+  "generated_at": "2026-03-30T07:49:25.759081",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -99,6 +99,52 @@
           "zone": 2,
           "training_load": 9.487356,
           "decoupling": -3.715436
+        }
+      ]
+    },
+    {
+      "activity_id": "i135830909",
+      "date": "2026-03-29",
+      "type": "Ride",
+      "name": "Evening Ride",
+      "interval_summary": [
+        "1x 25m12s 129bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4
+        },
+        {
+          "type": "WORK",
+          "label": "1512s@129bpm",
+          "duration_secs": 1512,
+          "avg_hr": 129,
+          "max_hr": 161,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i135830908",
+      "date": "2026-03-29",
+      "type": "Ride",
+      "name": "Weekend dans le Perche - Jour 2",
+      "interval_summary": [
+        "1x 5h30m 98bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1
+        },
+        {
+          "type": "WORK",
+          "label": "19858s@98bpm",
+          "duration_secs": 19858,
+          "avg_hr": 98,
+          "max_hr": 151,
+          "zone": 1
         }
       ]
     }
