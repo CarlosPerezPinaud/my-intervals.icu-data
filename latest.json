@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-03T03:22:09.686995",
+    "last_updated": "2026-04-03T05:21:40.048072",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -225,7 +225,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 60,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -567,9 +567,9 @@
           "planned_tss_delta": 4.35,
           "hard_sessions_planned": 3,
           "race_proximity": 2,
-          "next_week_load": 3.68,
+          "next_week_load": 3.92,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -604,7 +604,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-03T03:22:09.685801",
+    "calculation_timestamp": "2026-04-03T05:21:40.046973",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
@@ -1276,7 +1276,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 60,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1359,6 +1359,18 @@
       "duration_formatted": "1h12m",
       "workout_summary": "15m @178W | 2m @136W | 8\u00d72m @353W / 3m rec | 15m @178W",
       "description": "Warmup\n- 15m Ramp 56-75% 90rpm\n- 2m 50%\n\nMain Set\n8x\n  - 2m 130% 100rpm\n  - 3m 50% 85rpm\n\nCooldown\n- 15m Ramp 75-56% 90rpm"
+    },
+    {
+      "id": 102233186,
+      "date": "2026-04-10",
+      "name": "IntervalCoach - Aerobic Cruise",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey Carlos, steady aerobic journey awaits! 9m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 15m 65% 85rpm\n- Z2 Mid 15m 69% 88rpm\n- Z2 Upper 15m 73% 90rpm\n\nCooldown\n- Great work, Carlos, spin easy now. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
       "id": 101383394,
@@ -1500,12 +1512,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 15,
+    "attempted": 16,
     "success": 10,
     "patternA": 10,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 9.15,
