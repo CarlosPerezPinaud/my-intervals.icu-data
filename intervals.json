@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T09:09:20.023290",
+  "generated_at": "2026-04-05T09:57:13.286207",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -514,6 +514,54 @@
           "zone": 2,
           "training_load": 109.045105,
           "decoupling": 6.9327517
+        }
+      ]
+    },
+    {
+      "activity_id": "i137336778",
+      "date": "2026-04-05",
+      "type": "VirtualRide",
+      "name": "Aus Outerloop",
+      "interval_summary": [
+        "1x 2m59s 245w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 602,
+          "avg_power": 168,
+          "max_power": 213,
+          "avg_hr": 126,
+          "max_hr": 142,
+          "avg_cadence": 88.67608,
+          "zone": 2,
+          "training_load": 6.532118,
+          "decoupling": -7.5425982
+        },
+        {
+          "type": "WORK",
+          "label": "179s@245w94rpm",
+          "duration_secs": 179,
+          "avg_power": 245,
+          "max_power": 246,
+          "avg_hr": 151,
+          "max_hr": 159,
+          "avg_cadence": 94.37989,
+          "zone": 4,
+          "training_load": 3.9358945,
+          "decoupling": 4.705047
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 405,
+          "avg_power": 181,
+          "max_power": 520,
+          "avg_hr": 142,
+          "max_hr": 157,
+          "avg_cadence": 92.279015,
+          "zone": 2,
+          "training_load": 6.8341804,
+          "decoupling": -18.578192
         }
       ]
     }
