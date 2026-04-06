@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-06T03:42:15.573004",
+    "last_updated": "2026-04-06T05:52:23.720342",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -182,7 +182,7 @@
       "w_prime": 23825,
       "w_prime_kj": 23.8,
       "p_max": 853,
-      "vo2max": null,
+      "vo2max": 58.0,
       "sports": {
         "cycling": {
           "lthr": 172,
@@ -234,7 +234,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 195,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -576,11 +576,11 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 5.65,
-          "hard_sessions_planned": 5,
+          "planned_tss_delta": 6.68,
+          "hard_sessions_planned": 7,
           "race_proximity": 6,
           "next_week_load": 4.23,
-          "plan_coverage_current_week": 1.4,
+          "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -615,8 +615,8 @@
     "w_prime_kj": 23.8,
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-04-06T03:42:15.571829",
+    "vo2max": 58.0,
+    "calculation_timestamp": "2026-04-06T05:52:23.719156",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1160,7 +1160,7 @@
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 59.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -1199,7 +1199,7 @@
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 58.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -1238,7 +1238,7 @@
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 58.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -1255,7 +1255,7 @@
       "respiration": 11.533334,
       "body_fat_pct": 16.8,
       "abdomen_cm": null,
-      "steps": 1559,
+      "steps": 1758,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1277,7 +1277,7 @@
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 58.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -1294,7 +1294,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 195,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1319,6 +1319,18 @@
       "description": "Warmup\n- 20m Ramp 50-65% 90rpm\n\nMain Set\n- 2h30 65-75% 95rpm\n\nCooldown\n- 10m Ramp 65-50% 90rpm"
     },
     {
+      "id": 102718880,
+      "date": "2026-04-07",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 67,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey Carlos, progressive aerobic challenge awaits! 14m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 22m 65% 85rpm\n- Z2 Mid 22m 69% 88rpm\n- Z2 Upper 23m 73% 90rpm\n\nCooldown\n- Excellent work, Carlos, spin easy now. 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
       "id": 101381771,
       "date": "2026-04-08",
       "name": "Threshold Criss-Cross",
@@ -1329,6 +1341,18 @@
       "duration_formatted": "1h15m",
       "workout_summary": "15m @178W | 2m @136W | 3\u00d712m @258W / 4m rec | 10m @136W",
       "description": "Warmup\n- 15m Ramp 56-75% 90rpm\n- 2m 50%\n\nMain Set\n3x\n  - 12m 95% 95rpm\n  - 4m 50% 85rpm\n\nCooldown\n- 10m Ramp 50% 90rpm"
+    },
+    {
+      "id": 102718882,
+      "date": "2026-04-09",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 67,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey Carlos, endurance ride today! 14m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 17m 65% 85rpm\n- Build 17m 67% 88rpm\n- Upper Z2 17m 70-74% 90rpm\n- Cruise 16m 74-70% 88rpm\n\nCooldown\n- Awesome ride, Carlos! Recover well. 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
       "id": 101382015,
@@ -1495,12 +1519,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 14,
+    "attempted": 16,
     "success": 8,
     "patternA": 8,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 8
   },
   "weekly_summary": {
     "total_training_hours": 7.14,
