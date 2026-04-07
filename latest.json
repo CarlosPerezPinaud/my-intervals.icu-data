@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-07T18:31:09.298511",
+    "last_updated": "2026-04-07T19:44:31.425948",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -559,11 +559,11 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 5.74,
-          "hard_sessions_planned": 5,
+          "planned_tss_delta": 5.14,
+          "hard_sessions_planned": 4,
           "race_proximity": 5,
           "next_week_load": 4.23,
-          "plan_coverage_current_week": 1.2,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -599,7 +599,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-07T18:31:09.297224",
+    "calculation_timestamp": "2026-04-07T19:44:31.424730",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1318,18 +1318,6 @@
       "description": "Warmup\n- 15m Ramp 56-75% 90rpm\n- 2m 50%\n\nMain Set\n3x\n  - 12m 95% 95rpm\n  - 4m 50% 85rpm\n\nCooldown\n- 10m Ramp 50% 90rpm"
     },
     {
-      "id": 102718882,
-      "date": "2026-04-09",
-      "name": "IntervalCoach - Endurance Build",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 67,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description": "Warmup\n- Hey Carlos, endurance ride today! 14m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 17m 65% 85rpm\n- Build 17m 67% 88rpm\n- Upper Z2 17m 70-74% 90rpm\n- Cruise 16m 74-70% 88rpm\n\nCooldown\n- Awesome ride, Carlos! Recover well. 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
       "id": 101382015,
       "date": "2026-04-10",
       "name": "Anaerobic Capacity Intervals",
@@ -1483,12 +1471,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 13,
+    "attempted": 12,
     "success": 8,
     "patternA": 8,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 6.1,
