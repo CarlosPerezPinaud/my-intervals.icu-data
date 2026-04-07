@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-07T19:44:31.425948",
+    "last_updated": "2026-04-07T20:30:21.371845",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -599,7 +599,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-07T19:44:31.424730",
+    "calculation_timestamp": "2026-04-07T20:30:21.370674",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1457,23 +1457,12 @@
       "duration_formatted": "3h",
       "workout_summary": null,
       "description_preview": "Warmup\n- 15m Ramp 50-65% 90rpm\nMain Set"
-    },
-    {
-      "id": 94661206,
-      "date": "2026-05-03",
-      "name": "Race warm-up",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 21,
-      "duration_hours": 0.41,
-      "duration_formatted": "24m20s",
-      "workout_summary": "10m @170W | 3m @244W | 2m @136W | 2\u00d730s @326W / 1m rec | 10s @516W | 1m @136W | 10s @516W | 5m @136W"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
-    "success": 8,
-    "patternA": 8,
+    "attempted": 11,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 4
