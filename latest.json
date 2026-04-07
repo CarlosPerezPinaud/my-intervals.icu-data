@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-07T03:31:27.677849",
+    "last_updated": "2026-04-07T05:29:47.126791",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -159,8 +159,8 @@
       "ctl": 59.13,
       "atl": 68.66,
       "tsb": -9.53,
-      "ramp_rate": 4.67,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": 3.0,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 277.4,
@@ -219,7 +219,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 122,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -234,8 +234,8 @@
     "recovery_index": null,
     "hrv_baseline_7d": 68.6,
     "rhr_baseline_7d": 59,
-    "hrv_baseline_28d": 67.3,
-    "rhr_baseline_28d": 58.3,
+    "hrv_baseline_28d": 66.3,
+    "rhr_baseline_28d": 57.3,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.26,
@@ -528,17 +528,16 @@
         }
       }
     },
-    "consistency_index": 0.6,
+    "consistency_index": 0.75,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 4,
       "completed_days": 3,
       "matched_days": 3,
       "planned_dates": [
         "2026-04-02",
         "2026-04-04",
         "2026-04-05",
-        "2026-04-06",
-        "2026-04-07"
+        "2026-04-06"
       ],
       "completed_dates": [
         "2026-04-02",
@@ -560,11 +559,11 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 6.34,
-          "hard_sessions_planned": 6,
+          "planned_tss_delta": 5.74,
+          "hard_sessions_planned": 5,
           "race_proximity": 5,
           "next_week_load": 4.23,
-          "plan_coverage_current_week": 1.4,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -600,13 +599,13 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-07T03:31:27.676623",
+    "calculation_timestamp": "2026-04-07T05:29:47.125605",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 9,
       "activities_28d": 31,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1294,7 +1293,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 122,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1306,18 +1305,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 102718880,
-      "date": "2026-04-07",
-      "name": "IntervalCoach - Aerobic Endurance",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 67,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description": "Warmup\n- Hey Carlos, progressive aerobic challenge awaits! 14m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 22m 65% 85rpm\n- Z2 Mid 22m 69% 88rpm\n- Z2 Upper 23m 73% 90rpm\n\nCooldown\n- Excellent work, Carlos, spin easy now. 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
     {
       "id": 101381771,
       "date": "2026-04-08",
@@ -1496,12 +1483,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 14,
+    "attempted": 13,
     "success": 8,
     "patternA": 8,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 6.1,
