@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-08T02:47:55.036178",
+    "last_updated": "2026-04-08T05:15:32.443409",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -219,7 +219,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 107,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -234,8 +234,8 @@
     "recovery_index": null,
     "hrv_baseline_7d": 69.6,
     "rhr_baseline_7d": 58.7,
-    "hrv_baseline_28d": 68.6,
-    "rhr_baseline_28d": 56.5,
+    "hrv_baseline_28d": 68.2,
+    "rhr_baseline_28d": 56.0,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.27,
@@ -563,9 +563,9 @@
           "planned_tss_delta": 6.17,
           "hard_sessions_planned": 4,
           "race_proximity": 4,
-          "next_week_load": 4.23,
+          "next_week_load": 4.57,
           "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -600,7 +600,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-08T02:47:55.034947",
+    "calculation_timestamp": "2026-04-08T05:15:32.442200",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1294,7 +1294,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 107,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1379,6 +1379,18 @@
       "description": "Warmup\n- 20m Ramp 50-75% 95rpm\n- 2m 50%\n\nMain Set\n7x\n  - 4m 115% 105rpm\n  - 4m 50% 85rpm\n\nCooldown\n- 15m 50% 90rpm"
     },
     {
+      "id": 103137517,
+      "date": "2026-04-15",
+      "name": "IntervalCoach - Aerobic Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey Carlos, ready for a long aerobic ride! 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Awesome ride, Carlos! Enjoy the cool down 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
       "id": 101382443,
       "date": "2026-04-16",
       "name": "Sweet Spot Power Ramp",
@@ -1461,12 +1473,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 11,
+    "attempted": 12,
     "success": 7,
     "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 6.1,
