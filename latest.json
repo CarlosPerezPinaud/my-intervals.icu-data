@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-08T09:37:29.559963",
+    "last_updated": "2026-04-08T10:43:47.052633",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -560,7 +560,7 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 6.17,
+          "planned_tss_delta": 6.6,
           "hard_sessions_planned": 4,
           "race_proximity": 4,
           "next_week_load": 4.57,
@@ -600,7 +600,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-08T09:37:29.558876",
+    "calculation_timestamp": "2026-04-08T10:43:47.051517",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1312,11 +1312,11 @@
       "name": "Threshold Criss-Cross",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 83,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
-      "workout_summary": "15m @178W | 2m @136W | 3\u00d712m @258W / 4m rec | 10m @136W",
-      "description": "Warmup\n- 15m Ramp 56-75% 90rpm\n- 2m 50%\n\nMain Set\n3x\n  - 12m 95% 95rpm\n  - 4m 50% 85rpm\n\nCooldown\n- 10m Ramp 50% 90rpm"
+      "planned_tss": 123,
+      "duration_hours": 2.05,
+      "duration_formatted": "2h3m",
+      "workout_summary": "20m @178W | 3\u00d712m @258W / 4m rec | 45m @190W | 10m @136W",
+      "description": "Warmup\n- 20m Ramp 56-75% 90rpm\n\nMain Set\n3x\n  - 12m 95% 95rpm\n  - 4m 50% 85rpm\n\nAerobic extension \n- 45m 65-75% \n\nCooldown\n- 10m Ramp 50% 90rpm"
     },
     {
       "id": 101382015,
