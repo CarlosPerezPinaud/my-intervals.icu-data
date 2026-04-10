@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-10T01:05:28.504377",
+    "last_updated": "2026-04-10T04:18:43.926833",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -167,7 +167,7 @@
       "w_prime": 23825,
       "w_prime_kj": 23.8,
       "p_max": 853,
-      "vo2max": null,
+      "vo2max": 58.0,
       "sports": {
         "cycling": {
           "lthr": 172,
@@ -562,9 +562,9 @@
           "planned_tss_delta": 8.78,
           "hard_sessions_planned": 3,
           "race_proximity": 2,
-          "next_week_load": 4.57,
+          "next_week_load": 4.92,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -598,8 +598,8 @@
     "w_prime_kj": 23.8,
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-04-10T01:05:28.503305",
+    "vo2max": 58.0,
+    "calculation_timestamp": "2026-04-10T04:18:43.925700",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1234,7 +1234,7 @@
       "respiration": 11.2,
       "body_fat_pct": 16.5,
       "abdomen_cm": null,
-      "steps": 3864,
+      "steps": 5197,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1256,7 +1256,7 @@
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 58.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -1370,6 +1370,18 @@
       "description": "Warmup\n- 10m Ramp 50-70% 90rpm\n\nMain Set\n- 10m 75% 95rpm\n- 10m 80% 95rpm\n- 10m 85% 95rpm\n- 20m 90% 95rpm\n\nCooldown\n- 10m Ramp 75-50% 90rpm"
     },
     {
+      "id": 103472214,
+      "date": "2026-04-17",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey Carlos! Endurance and spin-ups await. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Awesome work, Carlos! Enjoy the cool down. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
       "id": 101383505,
       "date": "2026-04-18",
       "name": "Peak Loading \"Kitchen Sink\"",
@@ -1440,12 +1452,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 11,
+    "attempted": 12,
     "success": 6,
     "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 4.76,
