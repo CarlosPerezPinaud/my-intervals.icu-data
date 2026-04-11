@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-11T14:01:58.587730",
+    "last_updated": "2026-04-11T14:56:34.259841",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -341,7 +341,7 @@
     "capability": {
       "durability": {
         "mean_decoupling_7d": null,
-        "mean_decoupling_28d": 3.39,
+        "mean_decoupling_28d": 3.86,
         "high_drift_count_7d": 0,
         "high_drift_count_28d": 0,
         "qualifying_sessions_7d": 1,
@@ -587,9 +587,9 @@
           "planned_tss_delta": 5.5,
           "hard_sessions_planned": 3,
           "race_proximity": 1,
-          "next_week_load": 2.85,
+          "next_week_load": 2.45,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 1.4
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -624,7 +624,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-11T14:01:58.586512",
+    "calculation_timestamp": "2026-04-11T14:56:34.258665",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -664,12 +664,12 @@
       "carbs_used": 516,
       "carbs_ingested": null,
       "variability_index": 1.0100503,
-      "decoupling": 3.344834,
+      "decoupling": 4.293256,
       "efficiency_factor": 1.34,
       "hrrc": null,
       "elevation_m": 1363.4003,
       "feel": null,
-      "rpe": null,
+      "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1209,
@@ -1344,18 +1344,6 @@
       "description": "Warmup\n- 20m Ramp 50-75% 95rpm\n- 2m 50%\n\nMain Set\n7x\n  - 4m 115% 105rpm\n  - 4m 50% 85rpm\n\nCooldown\n- 15m 50% 90rpm"
     },
     {
-      "id": 103137517,
-      "date": "2026-04-15",
-      "name": "IntervalCoach - Aerobic Build",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description": "Warmup\n- Hey Carlos, ready for a long aerobic ride! 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Awesome ride, Carlos! Enjoy the cool down 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
       "id": 101382443,
       "date": "2026-04-16",
       "name": "Sweet Spot Power Ramp",
@@ -1366,18 +1354,6 @@
       "duration_formatted": "1h10m",
       "workout_summary": null,
       "description": "Warmup\n- 10m Ramp 50-70% 90rpm\n\nMain Set\n- 10m 75% 95rpm\n- 10m 80% 95rpm\n- 10m 85% 95rpm\n- 20m 90% 95rpm\n\nCooldown\n- 10m Ramp 75-50% 90rpm"
-    },
-    {
-      "id": 103472214,
-      "date": "2026-04-17",
-      "name": "IntervalCoach - Endurance Build",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description": "Warmup\n- Hey Carlos! Endurance and spin-ups await. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Awesome work, Carlos! Enjoy the cool down. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
       "id": 101383505,
@@ -1451,12 +1427,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 11,
+    "attempted": 9,
     "success": 6,
     "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 6.66,
