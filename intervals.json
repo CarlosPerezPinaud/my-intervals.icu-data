@@ -1,82 +1,9 @@
 {
-  "generated_at": "2026-04-10T23:52:25.634307",
+  "generated_at": "2026-04-11T02:38:32.978044",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i136768318",
-      "date": "2026-04-02",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - Sweet Spot Stability",
-      "interval_summary": [
-        "2x 19m57s 247w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1024,
-          "avg_power": 165,
-          "max_power": 247,
-          "avg_hr": 129,
-          "max_hr": 143,
-          "avg_cadence": 88.32617,
-          "zone": 2,
-          "training_load": 10.980777,
-          "decoupling": -5.1655097
-        },
-        {
-          "type": "WORK",
-          "label": "1197s@247w92rpm",
-          "duration_secs": 1197,
-          "avg_power": 246,
-          "max_power": 250,
-          "avg_hr": 160,
-          "max_hr": 168,
-          "avg_cadence": 92.43275,
-          "zone": 4,
-          "training_load": 27.197191,
-          "decoupling": 4.828627
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 303,
-          "avg_power": 137,
-          "max_power": 247,
-          "avg_hr": 139,
-          "max_hr": 164,
-          "avg_cadence": 86.90759,
-          "zone": 1,
-          "training_load": 2.491872,
-          "decoupling": -9.641395
-        },
-        {
-          "type": "WORK",
-          "label": "1197s@247w92rpm",
-          "duration_secs": 1196,
-          "avg_power": 247,
-          "max_power": 250,
-          "avg_hr": 164,
-          "max_hr": 169,
-          "avg_cadence": 90.74248,
-          "zone": 4,
-          "training_load": 27.17447,
-          "decoupling": 2.2753677
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1117,
-          "avg_power": 136,
-          "max_power": 247,
-          "avg_hr": 132,
-          "max_hr": 168,
-          "avg_cadence": 85.36974,
-          "zone": 1,
-          "training_load": 8.219946,
-          "decoupling": -6.5795894
-        }
-      ]
-    },
     {
       "activity_id": "i137105669",
       "date": "2026-04-04",
