@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-12T13:10:08.294208",
+    "last_updated": "2026-04-12T14:05:00.543771",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -579,7 +579,7 @@
           "planned_tss_delta": 3.98,
           "hard_sessions_planned": 2,
           "race_proximity": 0,
-          "next_week_load": 2.0,
+          "next_week_load": 2.05,
           "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.0
         },
@@ -616,7 +616,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-12T13:10:08.292979",
+    "calculation_timestamp": "2026-04-12T14:05:00.542430",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -716,7 +716,7 @@
       "hrrc": 25,
       "elevation_m": 378.2,
       "feel": null,
-      "rpe": null,
+      "rpe": 9,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 22,
@@ -1312,16 +1312,16 @@
       "description": ""
     },
     {
-      "id": 101382095,
+      "id": 103850470,
       "date": "2026-04-14",
-      "name": "VO2 Max \"Twin Peaks\"",
+      "name": "Threshold Crescendo",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 117,
-      "duration_hours": 1.55,
-      "duration_formatted": "1h33m",
-      "workout_summary": "20m @170W | 2m @136W | 7\u00d74m @312W / 4m rec | 15m @136W",
-      "description": "Warmup\n- 20m Ramp 50-75% 95rpm\n- 2m 50%\n\nMain Set\n7x\n  - 4m 115% 105rpm\n  - 4m 50% 85rpm\n\nCooldown\n- 15m 50% 90rpm"
+      "planned_tss": 108,
+      "duration_hours": 1.45,
+      "duration_formatted": "1h27m",
+      "workout_summary": "15m @170W | 2m @136W | 3\u00d715m @272W / 5m rec | 10m @122W",
+      "description": "Warmup\n- 15m Ramp 50-75% 90rpm\n- 2m 50% 85rpm\n\nMain Set 3x\n- 15m 100% 95rpm\n- 5m 50% 85rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
     },
     {
       "id": 101382443,
@@ -1336,16 +1336,16 @@
       "description": "Warmup\n- 10m Ramp 50-70% 90rpm\n\nMain Set\n- 10m 75% 95rpm\n- 10m 80% 95rpm\n- 10m 85% 95rpm\n- 20m 90% 95rpm\n\nCooldown\n- 10m Ramp 75-50% 90rpm"
     },
     {
-      "id": 101383505,
+      "id": 103859317,
       "date": "2026-04-18",
-      "name": "Peak Loading \"Kitchen Sink\"",
+      "name": "Big Engine Crescendo",
       "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 201,
-      "duration_hours": 3.62,
-      "duration_formatted": "3h37m",
-      "workout_summary": "20m @163W | 2m @136W | 2h @197W | 3\u00d715m @246W / 5m rec | 15m @122W",
-      "description": "Warmup\n- 20m Ramp 50-70% 90rpm\n- 2m 50% 85rpm\n\nMain Set\n- 2h 70-75% 90rpm\n\nSweet Spot Stability\n3x\n  - 15m 88-93% 95rpm\n  - 5m 50% 85rpm\n\nCooldown\n- 15m Ramp 50-40% 90rpm"
+      "sport_type": "Ride",
+      "planned_tss": 224,
+      "duration_hours": 4.41,
+      "duration_formatted": "4h24m24s",
+      "workout_summary": "20m @156W | 2m @136W | 18\u00d78s @408W / 12m30s rec | 15m @166W",
+      "description": "Warmup\n- 20m Ramp 50-65% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n18x\n  - 8s 150% 120rpm\n  - 12m 30s 72% 90rpm\n\nCooldown\n- 15m Ramp 72-50% 90rpm"
     },
     {
       "id": 94661204,
