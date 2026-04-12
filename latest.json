@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-12T14:05:00.543771",
+    "last_updated": "2026-04-12T14:58:23.834307",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -579,9 +579,9 @@
           "planned_tss_delta": 3.98,
           "hard_sessions_planned": 2,
           "race_proximity": 0,
-          "next_week_load": 2.05,
+          "next_week_load": 2.34,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -616,7 +616,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-12T14:05:00.542430",
+    "calculation_timestamp": "2026-04-12T14:58:23.833087",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1324,16 +1324,28 @@
       "description": "Warmup\n- 15m Ramp 50-75% 90rpm\n- 2m 50% 85rpm\n\nMain Set 3x\n- 15m 100% 95rpm\n- 5m 50% 85rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
     },
     {
-      "id": 101382443,
-      "date": "2026-04-16",
-      "name": "Sweet Spot Power Ramp",
+      "id": 103871119,
+      "date": "2026-04-15",
+      "name": "Endurance",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 74,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
+      "planned_tss": 60,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
       "workout_summary": null,
-      "description": "Warmup\n- 10m Ramp 50-70% 90rpm\n\nMain Set\n- 10m 75% 95rpm\n- 10m 80% 95rpm\n- 10m 85% 95rpm\n- 20m 90% 95rpm\n\nCooldown\n- 10m Ramp 75-50% 90rpm"
+      "description": "Warmup\n- 15m Ramp 50-65% 90rpm\n\nMain Set\n- 45m 75% 90rpm\n\nCooldown\n- 15m Ramp 65-50% 90rpm"
+    },
+    {
+      "id": 103866977,
+      "date": "2026-04-16",
+      "name": "AC Crescendo",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 95,
+      "duration_hours": 1.45,
+      "duration_formatted": "1h27m",
+      "workout_summary": "15m @176W | 2m @136W | 10\u00d71m @367W / 3m rec | 20m @195W | 10m @122W",
+      "description": "Warmup\n- 15m Ramp 55-75% 90rpm\n- 2m 50% 85rpm\n\nMain Set\n10x\n  - 1m 135% 105rpm\n  - 3m 50% 85rpm\n\nAerobic Maintenance\n- 20m 72% 95rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
     },
     {
       "id": 103859317,
@@ -1408,9 +1420,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
-    "success": 5,
-    "patternA": 5,
+    "attempted": 9,
+    "success": 6,
+    "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 3
