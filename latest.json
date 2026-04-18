@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-18T22:04:59.814711",
+    "last_updated": "2026-04-18T22:56:04.282970",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -230,7 +230,7 @@
       "respiration": 12.366667,
       "body_fat_pct": 16.7,
       "abdomen_cm": null,
-      "steps": 2752,
+      "steps": 3929,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -575,9 +575,9 @@
           "planned_tss_delta": 6.26,
           "hard_sessions_planned": 3,
           "race_proximity": 1,
-          "next_week_load": 1.23,
+          "next_week_load": 1.42,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -612,7 +612,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-18T22:04:59.813562",
+    "calculation_timestamp": "2026-04-18T22:56:04.281776",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1396,7 +1396,7 @@
       "respiration": 12.366667,
       "body_fat_pct": 16.7,
       "abdomen_cm": null,
-      "steps": 2752,
+      "steps": 3929,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1503,15 +1503,27 @@
       "duration_formatted": "3h",
       "workout_summary": null,
       "description": "Warmup\n- 15m Ramp 50-65% 90rpm\n\nMain Set\n- 2h 30m 65-75% 90rpm\n\nCooldown\n- 15m Ramp 65-50% 90rpm"
+    },
+    {
+      "id": 105133930,
+      "date": "2026-04-26",
+      "name": "IntervalCoach - Climbing Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 40,
+      "duration_hours": 0.53,
+      "duration_formatted": "32m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Hey Carlos! Time for some serious climbing 5m ramp 45-75% 85rpm\nMain Set"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
+    "attempted": 8,
     "success": 3,
     "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 6.05,
