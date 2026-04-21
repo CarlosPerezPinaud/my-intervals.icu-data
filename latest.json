@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-21T07:15:07.808990",
+    "last_updated": "2026-04-21T09:08:11.237441",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -579,7 +579,7 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 1.75,
+          "planned_tss_delta": 1.56,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 3.3,
@@ -619,7 +619,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-21T07:15:07.807888",
+    "calculation_timestamp": "2026-04-21T09:08:11.236352",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1346,23 +1346,23 @@
       "name": "Recovery Spin",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 23,
-      "duration_hours": 0.95,
-      "duration_formatted": "57m",
+      "planned_tss": 15,
+      "duration_hours": 0.6,
+      "duration_formatted": "36m",
       "workout_summary": null,
-      "description": "Warmup\n- 10m Ramp 40-50% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n- 35m 52% 95rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
+      "description": "Warmup\n- 10m Ramp 40-50% 90rpm\n\nMain Set\n- 20m 52% 95rpm\n\nCooldown\n- 6m Ramp 50-40% 90rpm"
     },
     {
       "id": 105242460,
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "name": "Easy Endurance",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 48,
-      "duration_hours": 1.28,
-      "duration_formatted": "1h17m",
+      "planned_tss": 40,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
       "workout_summary": null,
-      "description": "Warmup\n- 15m Ramp 50-60% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n- 50m 65% 95rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
+      "description": "Warmup\n- 15m Ramp 50-60% 90rpm\n\nMain Set\n- 40m 65% 95rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
     },
     {
       "id": 105242919,
@@ -1370,11 +1370,11 @@
       "name": "Openers",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 28,
-      "duration_hours": 0.72,
-      "duration_formatted": "43m",
-      "workout_summary": "15m @163W | 2m @136W | 4\u00d71m @272W / 3m rec | 10m @122W",
-      "description": "Warmup\n- 15m Ramp 50-70% 95rpm\n- 2m 50% 90rpm\n\nMain Set\n4x\n- 1m 100% 100rpm\n- 3m 50% 90rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
+      "planned_tss": 23,
+      "duration_hours": 0.6,
+      "duration_formatted": "36m",
+      "workout_summary": "15m @163W | 2m @136W | 3\u00d71m @272W / 2m rec | 10m @122W",
+      "description": "Warmup\n- 15m Ramp 50-70% 95rpm\n- 2m 50% 90rpm\n\nMain Set\n3x\n- 1m 100% 100rpm\n- 2m 50% 90rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
     },
     {
       "id": 101383828,
