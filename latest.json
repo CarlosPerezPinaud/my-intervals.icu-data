@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-26T14:23:34.412155",
+    "last_updated": "2026-04-26T15:09:50.773919",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -190,7 +190,7 @@
           "max_hr": 194,
           "threshold_pace": null,
           "pace_units": null,
-          "ftp": 277,
+          "ftp": 270,
           "ftp_indoor": null
         },
         "run": {
@@ -457,11 +457,11 @@
               "actual_hr": 182,
               "pct_lthr": 111.7,
               "source": "observed_outdoor",
-              "coggan_watts": 294,
-              "coggan_wpkg": 4.79,
-              "cp_model_watts": 356,
-              "cp_model_wpkg": 5.8,
-              "model_divergence_pct": -10.4
+              "coggan_watts": 286,
+              "coggan_wpkg": 4.66,
+              "cp_model_watts": 349,
+              "cp_model_wpkg": 5.68,
+              "model_divergence_pct": -8.6
             },
             "600s": {
               "actual_watts": 288,
@@ -469,11 +469,11 @@
               "actual_hr": 180,
               "pct_lthr": 110.4,
               "source": "observed_outdoor",
-              "coggan_watts": 269,
-              "coggan_wpkg": 4.38,
-              "cp_model_watts": 317,
-              "cp_model_wpkg": 5.16,
-              "model_divergence_pct": -9.1
+              "coggan_watts": 262,
+              "coggan_wpkg": 4.27,
+              "cp_model_watts": 310,
+              "cp_model_wpkg": 5.05,
+              "model_divergence_pct": -7.1
             },
             "1200s": {
               "actual_watts": 283,
@@ -481,11 +481,11 @@
               "actual_hr": 178,
               "pct_lthr": 109.2,
               "source": "observed_outdoor",
-              "coggan_watts": 258,
-              "coggan_wpkg": 4.2,
-              "cp_model_watts": 297,
-              "cp_model_wpkg": 4.84,
-              "model_divergence_pct": -4.7
+              "coggan_watts": 251,
+              "coggan_wpkg": 4.09,
+              "cp_model_watts": 290,
+              "cp_model_wpkg": 4.72,
+              "model_divergence_pct": -2.4
             },
             "1800s": {
               "actual_watts": 256,
@@ -493,11 +493,11 @@
               "actual_hr": 175,
               "pct_lthr": 107.4,
               "source": "observed_outdoor",
-              "coggan_watts": 249,
-              "coggan_wpkg": 4.06,
-              "cp_model_watts": 290,
-              "cp_model_wpkg": 4.72,
-              "model_divergence_pct": -11.7
+              "coggan_watts": 243,
+              "coggan_wpkg": 3.96,
+              "cp_model_watts": 283,
+              "cp_model_wpkg": 4.61,
+              "model_divergence_pct": -9.5
             },
             "3600s": {
               "actual_watts": 247,
@@ -505,11 +505,11 @@
               "actual_hr": 170,
               "pct_lthr": 104.3,
               "source": "observed_outdoor",
-              "coggan_watts": 238,
-              "coggan_wpkg": 3.88,
-              "cp_model_watts": 284,
-              "cp_model_wpkg": 4.63,
-              "model_divergence_pct": -13.0
+              "coggan_watts": 232,
+              "coggan_wpkg": 3.78,
+              "cp_model_watts": 277,
+              "cp_model_wpkg": 4.51,
+              "model_divergence_pct": -10.8
             },
             "5400s": {
               "actual_watts": 206,
@@ -517,11 +517,11 @@
               "actual_hr": 155,
               "pct_lthr": 95.1,
               "source": "observed_outdoor",
-              "coggan_watts": 227,
-              "coggan_wpkg": 3.7,
-              "cp_model_watts": 281,
-              "cp_model_wpkg": 4.58,
-              "model_divergence_pct": -26.7
+              "coggan_watts": 221,
+              "coggan_wpkg": 3.6,
+              "cp_model_watts": 274,
+              "cp_model_wpkg": 4.46,
+              "model_divergence_pct": -24.8
             },
             "7200s": {
               "actual_watts": 206,
@@ -529,15 +529,15 @@
               "actual_hr": 154,
               "pct_lthr": 94.5,
               "source": "observed_outdoor",
-              "coggan_watts": 216,
-              "coggan_wpkg": 3.52,
-              "cp_model_watts": 280,
-              "cp_model_wpkg": 4.56,
-              "model_divergence_pct": -26.4
+              "coggan_watts": 211,
+              "coggan_wpkg": 3.44,
+              "cp_model_watts": 273,
+              "cp_model_wpkg": 4.45,
+              "model_divergence_pct": -24.5
             }
           },
           "coverage_ratio": 1.0,
-          "ftp_used": 277,
+          "ftp_used": 270,
           "w_prime_used": 23825,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
@@ -576,10 +576,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.37,
+          "planned_tss_delta": 1.38,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 0.86,
+          "next_week_load": 0.87,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.0
         },
@@ -604,7 +604,7 @@
       "seasonal_expected": null
     },
     "benchmark_outdoor": {
-      "current_ftp": 277,
+      "current_ftp": 270,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
@@ -616,7 +616,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-26T14:23:34.410967",
+    "calculation_timestamp": "2026-04-26T15:09:50.772777",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -661,7 +661,7 @@
       "hrrc": 25,
       "elevation_m": 1.0,
       "feel": null,
-      "rpe": null,
+      "rpe": 10,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1798,
@@ -1238,7 +1238,7 @@
       "name": "FTP Test",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 95,
+      "planned_tss": 96,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
@@ -1250,10 +1250,10 @@
       "name": "VO2max Intervals",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 105,
+      "planned_tss": 106,
       "duration_hours": 1.55,
       "duration_formatted": "1h33m",
-      "workout_summary": "15m @172W | 2m @138W | 6\u00d73m @326W / 3m rec | 25m @193W | 15m @124W",
+      "workout_summary": "15m @168W | 2m @135W | 6\u00d73m @318W / 3m rec | 25m @189W | 15m @122W",
       "description": "Warmup\n- 15m Ramp 50-75% 95rpm\n- 2m 50% 90rpm\n\nMain Set\n6x\n- 3m 118% 105rpm\n- 3m 50% 85rpm\n\nAerobic Stability\n- 25m 70% 95rpm\n\nCooldown\n- 15m Ramp 50-40% 90rpm"
     },
     {
@@ -1274,10 +1274,10 @@
       "name": "Anaerobic Capacity (AC) Sharpening",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 106,
+      "planned_tss": 107,
       "duration_hours": 1.7,
       "duration_formatted": "1h42m",
-      "workout_summary": "15m @172W | 2m @138W | 10\u00d71m @373W / 3m rec | 35m @193W | 10m @124W",
+      "workout_summary": "15m @168W | 2m @135W | 10\u00d71m @364W / 3m rec | 35m @189W | 10m @122W",
       "description": "Warmup\n- 15m Ramp 50-75% 95rpm\n- 2m 50% 90rpm\n\nMain Set\n10x\n- 1m 135% 110rpm\n- 3m 50% 85rpm\n\n- 35m 70% 95rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
     },
     {
@@ -1286,7 +1286,7 @@
       "name": "Mallorca Tapered Endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 140,
+      "planned_tss": 141,
       "duration_hours": 3.0,
       "duration_formatted": "3h",
       "workout_summary": null,
@@ -1310,10 +1310,10 @@
       "name": "Mallorca Day 1: Climbing Force",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 235,
+      "planned_tss": 236,
       "duration_hours": 4.25,
       "duration_formatted": "4h15m",
-      "workout_summary": "30m @166W | 3\u00d720m @256W / 10m rec | 2h @194W | 15m @124W"
+      "workout_summary": "30m @162W | 3\u00d720m @250W / 10m rec | 2h @188W | 15m @122W"
     },
     {
       "id": 105771308,
@@ -1345,10 +1345,10 @@
       "name": "Mallorca Day 4: Threshold Jams",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 155,
+      "planned_tss": 154,
       "duration_hours": 2.37,
       "duration_formatted": "2h22m",
-      "workout_summary": "20m @172W | 2m @138W | 4\u00d715m @270W / 10m rec | 20m @124W"
+      "workout_summary": "20m @168W | 2m @135W | 4\u00d715m @263W / 10m rec | 20m @122W"
     },
     {
       "id": 105771865,
