@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-26T17:49:59.437323",
+    "last_updated": "2026-04-26T19:01:29.208759",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -564,9 +564,9 @@
     },
     "phase_detection": {
       "phase": "Deload",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [
-        "BUILD_HISTORY_REDUCED_LOAD_REBOUND_CONFIRMED"
+        "BUILD_HISTORY_REDUCED_LOAD"
       ],
       "basis": {
         "stream_1": {
@@ -579,9 +579,9 @@
           "planned_tss_delta": 1.38,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 0.87,
+          "next_week_load": 0.7,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -593,7 +593,7 @@
     },
     "phase_detected": "Deload",
     "phase_triggers": [
-      "BUILD_HISTORY_REDUCED_LOAD_REBOUND_CONFIRMED"
+      "BUILD_HISTORY_REDUCED_LOAD"
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -616,7 +616,7 @@
     "p_max": 853,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-26T17:49:59.436123",
+    "calculation_timestamp": "2026-04-26T19:01:29.207546",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1257,28 +1257,16 @@
       "description": "Warmup\n- 15m Ramp 50-75% 95rpm\n- 2m 50% 90rpm\n\nMain Set\n6x\n- 3m 118% 105rpm\n- 3m 50% 85rpm\n\nAerobic Stability\n- 25m 70% 95rpm\n\nCooldown\n- 15m Ramp 50-40% 90rpm"
     },
     {
-      "id": 105817814,
-      "date": "2026-04-29",
-      "name": "IntervalCoach - Aerobic Base Building",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description": "Warmup\n- Hey Carlos! Let's build some aerobic base today. 9m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 15m 65% 85rpm\n- Z2 Mid 15m 69% 88rpm\n- Z2 Upper 15m 73% 90rpm\n\nCooldown\n- Fantastic work, Carlos! Enjoy the recovery spin. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
       "id": 105245556,
       "date": "2026-04-30",
       "name": "Anaerobic Capacity (AC) Sharpening",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 107,
-      "duration_hours": 1.7,
-      "duration_formatted": "1h42m",
-      "workout_summary": "15m @168W | 2m @135W | 10\u00d71m @364W / 3m rec | 35m @189W | 10m @122W",
-      "description": "Warmup\n- 15m Ramp 50-75% 95rpm\n- 2m 50% 90rpm\n\nMain Set\n10x\n- 1m 135% 110rpm\n- 3m 50% 85rpm\n\n- 35m 70% 95rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
+      "planned_tss": 94,
+      "duration_hours": 1.45,
+      "duration_formatted": "1h27m",
+      "workout_summary": "15m @168W | 2m @135W | 10\u00d71m @364W / 3m rec | 20m @189W | 10m @122W",
+      "description": "Warmup\n- 15m Ramp 50-75% 95rpm\n- 2m 50% 90rpm\n\nMain Set\n10x\n- 1m 135% 110rpm\n- 3m 50% 85rpm\n\n- 20m 70% 95rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
     },
     {
       "id": 105245843,
@@ -1291,18 +1279,6 @@
       "duration_formatted": "3h",
       "workout_summary": null,
       "description": "Warmup\n- 20m Ramp 50-65% 90rpm\n\nMain Set\n- 150m 70% 95rpm\n\nCooldown\n- 10m Ramp 65-50% 90rpm"
-    },
-    {
-      "id": 106480667,
-      "date": "2026-05-03",
-      "name": "IntervalCoach - Endurance Ride",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 23,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "description": "Warmup\n- Hey Carlos! Steady endurance ride ahead. 5m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 22m 65-75% 85rpm\n\nCooldown\n- Great work, Carlos! Enjoy the recovery. 3m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
       "id": 105771251,
@@ -1364,12 +1340,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 11,
+    "attempted": 9,
     "success": 4,
     "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 7
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 5.26,
