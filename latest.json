@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-02T01:18:50.230853",
+    "last_updated": "2026-05-02T04:42:48.773429",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -126,7 +126,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 3.6
+        "value": 16.6
       }
     },
     "signal_summary": {
@@ -175,18 +175,18 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 63.26,
-      "atl": 59.7,
-      "tsb": 3.56,
-      "ramp_rate": -0.79,
+      "ctl": 60.02,
+      "atl": 43.43,
+      "tsb": 16.59,
+      "ramp_rate": -4.03,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 276.0,
-      "w_prime": 23706,
+      "eftp": 275.7,
+      "w_prime": 23683,
       "w_prime_kj": 23.7,
-      "p_max": 849,
-      "vo2max": null,
+      "p_max": 848,
+      "vo2max": 59.0,
       "sports": {
         "cycling": {
           "lthr": 171,
@@ -474,9 +474,9 @@
               "source": "observed_outdoor",
               "coggan_watts": 262,
               "coggan_wpkg": 4.32,
-              "cp_model_watts": 310,
-              "cp_model_wpkg": 5.11,
-              "model_divergence_pct": -7.1
+              "cp_model_watts": 309,
+              "cp_model_wpkg": 5.09,
+              "model_divergence_pct": -6.8
             },
             "1200s": {
               "actual_watts": 283,
@@ -541,7 +541,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 270,
-          "w_prime_used": 23706,
+          "w_prime_used": 23683,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -572,7 +572,7 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -0.55,
+          "ctl_slope": -1.38,
           "acwr_trend": "falling",
           "hard_day_pattern": 2.8,
           "weeks_available": 5
@@ -612,13 +612,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 276.0,
-    "w_prime": 23706,
+    "eftp": 275.7,
+    "w_prime": 23683,
     "w_prime_kj": 23.7,
-    "p_max": 849,
+    "p_max": 848,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-05-02T01:18:50.229673",
+    "vo2max": 59.0,
+    "calculation_timestamp": "2026-05-02T04:42:48.772269",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 6,
@@ -1126,7 +1126,7 @@
       "respiration": null,
       "body_fat_pct": 16.4,
       "abdomen_cm": null,
-      "steps": 6118,
+      "steps": 6633,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1148,7 +1148,7 @@
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 59.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
