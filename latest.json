@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-06T04:56:46.710579",
+    "last_updated": "2026-05-06T07:39:01.883360",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -624,7 +624,7 @@
     "p_max": 848,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-06T04:56:46.709275",
+    "calculation_timestamp": "2026-05-06T07:39:01.882169",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -1186,8 +1186,20 @@
   ],
   "planned_workouts": [
     {
-      "id": 105771569,
+      "id": 105771865,
       "date": "2026-05-06",
+      "name": "Mallorca Queen Stage: Total Exhaustion",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 324,
+      "duration_hours": 6.08,
+      "duration_formatted": "6h5m",
+      "workout_summary": null,
+      "description": "Warmup\n- 20m Ramp 50-65% 90rpm\n\nMain Set\n- 5h 72% 90rpm\n- 30m 90%\n\nCooldown\n- 15m Ramp 50-40% 90rpm"
+    },
+    {
+      "id": 105771569,
+      "date": "2026-05-07",
       "name": "Mallorca Day 3: Mediterranean Recovery",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
@@ -1199,7 +1211,7 @@
     },
     {
       "id": 105771664,
-      "date": "2026-05-07",
+      "date": "2026-05-08",
       "name": "Mallorca Day 4: Threshold Jams",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
@@ -1208,18 +1220,6 @@
       "duration_formatted": "2h22m",
       "workout_summary": "20m @168W | 2m @135W | 4\u00d715m @263W / 10m rec | 20m @122W",
       "description": "Warmup\n- 20m Ramp 50-75% 90rpm\n- 2m 50% 85rpm\n\nMain Set\n4x\n- 15m 95-100% 85rpm (on climbs)\n- 10m 50% 90rpm\n\nCooldown\n- 20m Ramp 50-40% 85rpm"
-    },
-    {
-      "id": 105771865,
-      "date": "2026-05-08",
-      "name": "Mallorca Queen Stage: Total Exhaustion",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 324,
-      "duration_hours": 6.08,
-      "duration_formatted": "6h5m",
-      "workout_summary": null,
-      "description": "Warmup\n- 20m Ramp 50-65% 90rpm\n\nMain Set\n- 5h 72% 90rpm\n- 30m 90%\n\nCooldown\n- 15m Ramp 50-40% 90rpm"
     }
   ],
   "workout_summary_stats": {
