@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T09:55:19.012608",
+  "generated_at": "2026-05-08T11:21:51.647102",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -498,6 +498,80 @@
           "zone": 2,
           "training_load": 21.224775,
           "decoupling": 0.9169385
+        }
+      ]
+    },
+    {
+      "activity_id": "i146445649",
+      "date": "2026-05-08",
+      "type": "Ride",
+      "name": "Mallorca Day 4: Threshold Jams",
+      "interval_summary": [
+        "1x 11m49s 256w",
+        "1x 8m10s 254w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1443,
+          "avg_power": 133,
+          "max_power": 261,
+          "avg_hr": 120,
+          "max_hr": 141,
+          "avg_cadence": 77.57433,
+          "zone": 1,
+          "training_load": 11.086973,
+          "decoupling": -15.504931
+        },
+        {
+          "type": "WORK",
+          "label": "709s@256w89rpm",
+          "duration_secs": 709,
+          "avg_power": 256,
+          "max_power": 332,
+          "avg_hr": 161,
+          "max_hr": 173,
+          "avg_cadence": 89.14387,
+          "zone": 4,
+          "training_load": 17.705008,
+          "decoupling": 4.9226823
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 25,
+          "avg_power": 184,
+          "max_power": 319,
+          "avg_hr": 166,
+          "max_hr": 171,
+          "avg_cadence": 70.28,
+          "zone": 2,
+          "training_load": 0.42813596,
+          "decoupling": -25.637638
+        },
+        {
+          "type": "WORK",
+          "label": "490s@254w92rpm",
+          "duration_secs": 490,
+          "avg_power": 254,
+          "max_power": 313,
+          "avg_hr": 168,
+          "max_hr": 176,
+          "avg_cadence": 91.73061,
+          "zone": 4,
+          "training_load": 12.04574,
+          "decoupling": 0.6323813
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7969,
+          "avg_power": 99,
+          "max_power": 812,
+          "avg_hr": 117,
+          "max_hr": 177,
+          "avg_cadence": 48.78339,
+          "zone": 1,
+          "training_load": 51.267563,
+          "decoupling": 5.8607674
         }
       ]
     }
