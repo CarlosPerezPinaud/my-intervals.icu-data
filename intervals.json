@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T12:37:42.100964",
+  "generated_at": "2026-05-16T14:10:02.636686",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -298,6 +298,45 @@
           "avg_cadence": 23.595085,
           "zone": 1,
           "training_load": 8.8844595
+        }
+      ]
+    },
+    {
+      "activity_id": "i148796292",
+      "date": "2026-05-16",
+      "type": "Ride",
+      "name": "Pre-Race Aerobic Prime",
+      "interval_summary": [
+        "1x 16s 632w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5484,
+          "avg_power": 54,
+          "max_power": 465,
+          "avg_cadence": 48.627995,
+          "zone": 1,
+          "training_load": 11.503996
+        },
+        {
+          "type": "WORK",
+          "label": "16s@632w106rpm",
+          "duration_secs": 16,
+          "avg_power": 632,
+          "max_power": 742,
+          "avg_cadence": 106.25,
+          "zone": 7,
+          "training_load": 0.755397
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 12406,
+          "avg_power": 65,
+          "max_power": 514,
+          "avg_cadence": 50.77401,
+          "zone": 1,
+          "training_load": 43.592804
         }
       ]
     }
