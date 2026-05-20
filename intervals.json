@@ -1,82 +1,9 @@
 {
-  "generated_at": "2026-05-19T23:45:46.738725",
+  "generated_at": "2026-05-20T03:57:22.829958",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i147285367",
-      "date": "2026-05-11",
-      "type": "Ride",
-      "name": "Majorque - Jour 5",
-      "interval_summary": [
-        "1x 15m24s 268w",
-        "1x 17m22s 235w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4914,
-          "avg_power": 108,
-          "max_power": 393,
-          "avg_hr": 108,
-          "max_hr": 148,
-          "avg_cadence": 58.609367,
-          "zone": 1,
-          "training_load": 38.25362,
-          "decoupling": -20.449835
-        },
-        {
-          "type": "WORK",
-          "label": "924s@268w94rpm",
-          "duration_secs": 924,
-          "avg_power": 268,
-          "max_power": 338,
-          "avg_hr": 164,
-          "max_hr": 176,
-          "avg_cadence": 93.68615,
-          "zone": 4,
-          "training_load": 25.287828,
-          "decoupling": 9.208714
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 13885,
-          "avg_power": 97,
-          "max_power": 375,
-          "avg_hr": 115,
-          "max_hr": 174,
-          "avg_cadence": 50.21698,
-          "zone": 1,
-          "training_load": 60.519547
-        },
-        {
-          "type": "WORK",
-          "label": "1042s@235w86rpm",
-          "duration_secs": 1042,
-          "avg_power": 235,
-          "max_power": 368,
-          "avg_hr": 157,
-          "max_hr": 180,
-          "avg_cadence": 86.281555,
-          "zone": 3,
-          "training_load": 25.81773,
-          "decoupling": -5.1239505
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3338,
-          "avg_power": 77,
-          "max_power": 958,
-          "avg_hr": 115,
-          "max_hr": 173,
-          "avg_cadence": 49.050488,
-          "zone": 1,
-          "training_load": 20.80443,
-          "decoupling": -16.003927
-        }
-      ]
-    },
     {
       "activity_id": "i147580527",
       "date": "2026-05-12",
