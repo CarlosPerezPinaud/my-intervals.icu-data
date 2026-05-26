@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-26T21:48:28.165211",
+    "last_updated": "2026-05-26T23:12:47.173169",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -611,7 +611,7 @@
     "p_max": 955,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-26T21:48:28.163854",
+    "calculation_timestamp": "2026-05-26T23:12:47.171826",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -677,7 +677,12 @@
           "z7_time": 0
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "chat_notes": [
+        "Stayed seated for the first 5 intervals. For the 6th stayed seated for 2 min. For the last stayed seated for 1 min.",
+        "The Z2 part felt harder than usual",
+        "It was 31\u00b0C outside when I did the workout"
+      ]
     },
     {
       "id": "18654297697",
