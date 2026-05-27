@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 12.71,
       "total_training_formatted": "12h42m",
-      "total_activities": 11,
+      "total_activities": 12,
       "total_tss": 694
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-27T18:35:19.414140",
+    "last_updated": "2026-05-27T20:55:12.898756",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -16.8
+        "value": -18.3
       }
     },
     "signal_summary": {
@@ -138,7 +138,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 12.71,
-    "total_activities": 11,
+    "total_activities": 12,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 4.85,
@@ -148,7 +148,7 @@
       },
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 4,
+        "count": 5,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -162,10 +162,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 78.23,
-      "atl": 95.02,
-      "tsb": -16.79,
-      "ramp_rate": 5.8,
+      "ctl": 78.56,
+      "atl": 96.89,
+      "tsb": -18.33,
+      "ramp_rate": 6.13,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -565,13 +565,13 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": 3.18,
+          "ctl_slope": 3.27,
           "acwr_trend": "falling",
           "hard_day_pattern": 3,
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 2.96,
+          "planned_tss_delta": 3.01,
           "hard_sessions_planned": 3,
           "race_proximity": 4,
           "next_week_load": null,
@@ -611,12 +611,12 @@
     "p_max": 955,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 59.0,
-    "calculation_timestamp": "2026-05-27T18:35:19.412911",
+    "calculation_timestamp": "2026-05-27T20:55:12.897523",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 11,
-      "activities_28d": 28,
+      "activities_7d": 12,
+      "activities_28d": 29,
       "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
@@ -625,6 +625,41 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "18680225273",
+      "date": "2026-05-27T21:03:02",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
+    },
     {
       "id": "18674428308",
       "date": "2026-05-27T13:36:45",
@@ -726,7 +761,7 @@
       "hrrc": 28,
       "elevation_m": 1010.8,
       "feel": null,
-      "rpe": null,
+      "rpe": 8,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1582,
@@ -1432,11 +1467,11 @@
       "name": "Aerobic Realization",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 49,
+      "planned_tss": 59,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
-      "description": "Warmup\n- 15m Ramp 50-65% 90rpm\n\nMain Set\n- 55m 65% 95rpm\n\nCooldown\n- 5m Ramp 50-40% 90rpm"
+      "description": "Warmup\n- 15m Ramp 50-65% 90rpm\n\nMain Set\n- 55m 72% 95rpm\n\nCooldown\n- 5m Ramp 50-40% 90rpm"
     },
     {
       "id": 112397466,
@@ -1511,7 +1546,7 @@
     "total_training_hours": 12.71,
     "total_training_formatted": "12h42m",
     "total_tss": 694,
-    "activities_count": 11,
+    "activities_count": 12,
     "avg_hrv": 64.2,
     "avg_resting_hr": 61.0
   },
