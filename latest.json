@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-01T20:06:20.505944",
+    "last_updated": "2026-06-01T22:37:22.458140",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -568,8 +568,8 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 3.7,
-          "hard_sessions_planned": 4,
+          "planned_tss_delta": 3.69,
+          "hard_sessions_planned": 5,
           "race_proximity": 6,
           "next_week_load": null,
           "plan_coverage_current_week": 1.4,
@@ -608,7 +608,7 @@
     "p_max": 955,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-01T20:06:20.504471",
+    "calculation_timestamp": "2026-06-01T22:37:22.456789",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1381,16 +1381,16 @@
       "description": "Warmup\n- 15m Ramp 50-75% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n7x\n- 4m 107% 105rpm\n- 3m 50% 85rpm\n\nAerobic Stability\n- 65m 75% 95rpm\n\nCooldown\n- 5m Ramp 50-40% 90rpm"
     },
     {
-      "id": 113654900,
+      "id": 113671832,
       "date": "2026-06-03",
       "name": "Wednesday Aerobic Flush",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 109,
+      "planned_tss": 102,
       "duration_hours": 2.17,
       "duration_formatted": "2h10m",
       "workout_summary": null,
-      "description": "Warmup\n- 10m Ramp 50-70% 90rpm\n\nMain Set\n- 110m 73% 95rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
+      "description": "Warmup\n- 10m Ramp 50-70% 90rpm\n\nMain Set\n- 110m 70% 95rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
     },
     {
       "id": 113663666,
@@ -1410,23 +1410,23 @@
       "name": "Wednesday Aerobic Flush",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 109,
+      "planned_tss": 102,
       "duration_hours": 2.17,
       "duration_formatted": "2h10m",
       "workout_summary": null,
-      "description": "Warmup\n- 10m Ramp 50-70% 90rpm\n\nMain Set\n- 110m 73% 95rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
+      "description": "Warmup\n- 10m Ramp 50-70% 90rpm\n\nMain Set\n- 110m 70% 95rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
     },
     {
-      "id": 113664162,
+      "id": 113673974,
       "date": "2026-06-06",
-      "name": "Climbing Force Endurance",
+      "name": "Saturday Aerobic Power",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 225,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
-      "workout_summary": null,
-      "description": "Warmup\n- 20m Ramp 50-68% 90rpm\n\nMain Set\n- 270m 68% 75rpm\n\nCooldown\n- 10m Ramp 68-40% 90rpm"
+      "sport_type": "VirtualRide",
+      "planned_tss": 235,
+      "duration_hours": 4.47,
+      "duration_formatted": "4h28m",
+      "workout_summary": "30m @164W | 3\u00d740m @218W / 20m rec | 48m @185W | 10m @150W",
+      "description": "Warmup\n- 30m Ramp 50-70% 90rpm\n\nMain Set\n3x\n- 40m 80% 93rpm\n- 20m 65% 90rpm\n\nAerobic Floor\n- 48m 68% 90rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
     },
     {
       "id": 113663992,
@@ -1455,11 +1455,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 6,
-    "success": 3,
-    "patternA": 3,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 3
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 11.06,
