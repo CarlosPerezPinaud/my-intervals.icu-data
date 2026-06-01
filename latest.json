@@ -70,15 +70,15 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-01T15:43:10.477769",
+    "last_updated": "2026-06-01T20:06:20.505944",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
   },
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "green",
@@ -106,35 +106,25 @@
         "value": 1.16
       },
       "tsb": {
-        "status": "amber",
+        "status": "green",
         "value": -15.0
       }
     },
     "signal_summary": {
-      "green": 4,
-      "amber": 2,
+      "green": 5,
+      "amber": 1,
       "red": 0,
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
-      "phase_week": 2,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "phase": "Build",
+      "phase_week": 1,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "sleep",
-        "tsb"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 2 amber (sleep, tsb) >= threshold 2.",
+    "modification": null,
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -235,7 +225,7 @@
       "respiration": 11.933333,
       "body_fat_pct": 16.8,
       "abdomen_cm": null,
-      "steps": 2178,
+      "steps": 3906,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -565,10 +555,10 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
+      "phase": "Build",
       "confidence": "medium",
       "reason_codes": [
-        "PLAN_GAP_NEXT_WEEK"
+        "BUILD_RESUMING_AFTER_DELOAD"
       ],
       "basis": {
         "stream_1": {
@@ -578,24 +568,24 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
-          "race_proximity": null,
+          "planned_tss_delta": 3.7,
+          "hard_sessions_planned": 4,
+          "race_proximity": 6,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": "Deload",
-      "phase_duration_weeks": 2,
+      "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
+    "phase_detected": "Build",
     "phase_triggers": [
-      "PLAN_GAP_NEXT_WEEK"
+      "BUILD_RESUMING_AFTER_DELOAD"
     ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -618,7 +608,7 @@
     "p_max": 955,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-01T15:43:10.476422",
+    "calculation_timestamp": "2026-06-01T20:06:20.504471",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1046,7 +1036,7 @@
       "id": "i151590484",
       "date": "2026-05-26T11:39:25",
       "type": "VirtualRide",
-      "name": "MyWhoosh - VO2max Ceiling Expansion",
+      "name": "VO2max Ceiling Expansion",
       "duration_hours": 1.77,
       "distance_km": 50.43,
       "tss": 119,
@@ -1366,7 +1356,7 @@
       "respiration": 11.933333,
       "body_fat_pct": 16.8,
       "abdomen_cm": null,
-      "steps": 2178,
+      "steps": 3906,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1377,14 +1367,99 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 113654501,
+      "date": "2026-06-02",
+      "name": "VO2max Ceiling Expansion",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 150,
+      "duration_hours": 2.27,
+      "duration_formatted": "2h16m",
+      "workout_summary": "15m @170W | 2m @136W | 7\u00d74m @292W / 3m rec | 1h5m @204W | 5m @122W",
+      "description": "Warmup\n- 15m Ramp 50-75% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n7x\n- 4m 107% 105rpm\n- 3m 50% 85rpm\n\nAerobic Stability\n- 65m 75% 95rpm\n\nCooldown\n- 5m Ramp 50-40% 90rpm"
+    },
+    {
+      "id": 113654900,
+      "date": "2026-06-03",
+      "name": "Wednesday Aerobic Flush",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 109,
+      "duration_hours": 2.17,
+      "duration_formatted": "2h10m",
+      "workout_summary": null,
+      "description": "Warmup\n- 10m Ramp 50-70% 90rpm\n\nMain Set\n- 110m 73% 95rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
+    },
+    {
+      "id": 113663666,
+      "date": "2026-06-04",
+      "name": "Threshold TTE Extension",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 131,
+      "duration_hours": 1.93,
+      "duration_formatted": "1h56m",
+      "workout_summary": "20m @170W | 2m @136W | 3\u00d715m @273W / 8m rec | 15m @191W | 10m @122W",
+      "description": "Warmup\n- 20m Ramp 50-75% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n3x\n- 15m 100% 80rpm\n- 8m 50% 90rpm\n\nAerobic Wrap\n- 15m 70% 95rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
+    },
+    {
+      "id": 113665011,
+      "date": "2026-06-05",
+      "name": "Wednesday Aerobic Flush",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 109,
+      "duration_hours": 2.17,
+      "duration_formatted": "2h10m",
+      "workout_summary": null,
+      "description": "Warmup\n- 10m Ramp 50-70% 90rpm\n\nMain Set\n- 110m 73% 95rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
+    },
+    {
+      "id": 113664162,
+      "date": "2026-06-06",
+      "name": "Climbing Force Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 225,
+      "duration_hours": 5.0,
+      "duration_formatted": "5h",
+      "workout_summary": null,
+      "description": "Warmup\n- 20m Ramp 50-68% 90rpm\n\nMain Set\n- 270m 68% 75rpm\n\nCooldown\n- 10m Ramp 68-40% 90rpm"
+    },
+    {
+      "id": 113663992,
+      "date": "2026-06-07",
+      "name": "Race warm-up",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 20,
+      "duration_hours": 0.41,
+      "duration_formatted": "24m20s",
+      "workout_summary": "10m @170W | 3m @245W | 2m @136W | 2\u00d730s @327W / 1m rec | 10s @518W | 1m @136W | 10s @518W | 5m @136W",
+      "description": "- 10m ramp 50-75% 95rpm\n\n- 3m 90% 100rpm\n\n- 2m 50% 90rpm\n\n2x\n- 30s 120% 105rpm\n- 1m 50% 85rpm\n\n- 10s 190% 110rpm\n- 1m 50% 85rpm\n- 10s 190% 110rpm\n- 5m 50% 90rpm"
+    },
+    {
+      "id": 113664014,
+      "date": "2026-06-07",
+      "name": "SRC",
+      "type": "RACE_C",
+      "sport_type": "VirtualRide",
+      "planned_tss": 135,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
+      "workout_summary": null,
+      "description": ""
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 6,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 11.06,
@@ -1395,8 +1470,26 @@
     "avg_resting_hr": 55.6
   },
   "race_calendar": {
-    "next_race": null,
-    "all_races": [],
+    "next_race": {
+      "name": "SRC",
+      "date": "2026-06-07",
+      "category": "RACE_C",
+      "type": "VirtualRide",
+      "days_until": 6,
+      "moving_time_seconds": 5100,
+      "distance_meters": null
+    },
+    "all_races": [
+      {
+        "name": "SRC",
+        "date": "2026-06-07",
+        "category": "RACE_C",
+        "type": "VirtualRide",
+        "days_until": 6,
+        "moving_time_seconds": 5100,
+        "distance_meters": null
+      }
+    ],
     "taper_alert": {
       "active": false
     },
