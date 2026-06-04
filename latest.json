@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-04T05:07:20.138885",
+    "last_updated": "2026-06-04T09:01:45.884475",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -579,7 +579,7 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 3.61,
+          "planned_tss_delta": 3.59,
           "hard_sessions_planned": 4,
           "race_proximity": 3,
           "next_week_load": null,
@@ -619,7 +619,7 @@
     "p_max": 955,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-04T05:07:20.137550",
+    "calculation_timestamp": "2026-06-04T09:01:45.883227",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1350,11 +1350,11 @@
       "name": "Threshold TTE Extension",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 131,
-      "duration_hours": 1.93,
-      "duration_formatted": "1h56m",
-      "workout_summary": "20m @170W | 2m @136W | 3\u00d715m @273W / 8m rec | 15m @191W | 10m @122W",
-      "description": "Warmup\n- 20m Ramp 50-75% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n3x\n- 15m 100% 80rpm\n- 8m 50% 90rpm\n\nAerobic Wrap\n- 15m 70% 95rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
+      "planned_tss": 127,
+      "duration_hours": 1.85,
+      "duration_formatted": "1h51m",
+      "workout_summary": "15m @156W | 2m @136W | 3\u00d715m @273W / 8m rec | 15m @191W | 10m @122W",
+      "description": "Warmup\n- 15m Ramp 40-75% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n3x\n- 15m 100% 80rpm\n- 8m 50% 90rpm\n\nAerobic Wrap\n- 15m 70% 95rpm\n\nCooldown\n- 10m Ramp 50-40% 90rpm"
     },
     {
       "id": 113665011,
