@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-06T05:35:31.636456",
+    "last_updated": "2026-06-06T08:14:39.280047",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -563,7 +563,7 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 3.85,
+          "planned_tss_delta": 3.28,
           "hard_sessions_planned": 3,
           "race_proximity": 1,
           "next_week_load": null,
@@ -603,7 +603,7 @@
     "p_max": 955,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-06T05:35:31.635148",
+    "calculation_timestamp": "2026-06-06T08:14:39.278649",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1303,11 +1303,11 @@
       "name": "Saturday Aerobic Power",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 235,
-      "duration_hours": 4.47,
-      "duration_formatted": "4h28m",
-      "workout_summary": "30m @164W | 3\u00d740m @218W / 20m rec | 48m @185W | 10m @150W",
-      "description": "Warmup\n- 30m Ramp 50-70% 90rpm\n\nMain Set\n3x\n- 40m 80% 93rpm\n- 20m 65% 90rpm\n\nAerobic Floor\n- 48m 68% 90rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
+      "planned_tss": 177,
+      "duration_hours": 3.17,
+      "duration_formatted": "3h10m",
+      "workout_summary": "15m @164W | 3\u00d740m @218W / 15m rec | 10m @143W",
+      "description": "Warmup\n- 15m Ramp 50-70% 90rpm\n\nMain Set\n3x\n- 40m 80% 93rpm\n- 15m 65% 90rpm\n\nCooldown\n- 10m Ramp 65-40% 90rpm"
     },
     {
       "id": 113663992,
