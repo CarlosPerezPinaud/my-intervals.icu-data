@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T18:20:35.978583",
+  "generated_at": "2026-06-11T21:00:46.568283",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -809,6 +809,104 @@
           "zone": 1,
           "training_load": 4.478048,
           "decoupling": 3.3063407
+        }
+      ]
+    },
+    {
+      "activity_id": "i156488209",
+      "date": "2026-06-11",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - FTP Test",
+      "interval_summary": [
+        "2x 59s 263w",
+        "1x 10m 255w",
+        "1x 17m8s 290w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 998,
+          "avg_power": 166,
+          "max_power": 270,
+          "avg_cadence": 91.1002,
+          "zone": 2,
+          "training_load": 10.594013
+        },
+        {
+          "type": "WORK",
+          "label": "59s@263w97rpm",
+          "duration_secs": 57,
+          "avg_power": 257,
+          "max_power": 293,
+          "avg_cadence": 95.350876,
+          "zone": 4,
+          "training_load": 1.185935
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 57,
+          "avg_power": 143,
+          "max_power": 254,
+          "avg_cadence": 89.22807,
+          "zone": 1,
+          "training_load": 0.7399846
+        },
+        {
+          "type": "WORK",
+          "label": "59s@263w97rpm",
+          "duration_secs": 60,
+          "avg_power": 268,
+          "max_power": 311,
+          "avg_cadence": 98.36667,
+          "zone": 4,
+          "training_load": 1.35546
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 303,
+          "avg_power": 141,
+          "max_power": 284,
+          "avg_cadence": 89.60396,
+          "zone": 1,
+          "training_load": 2.849146
+        },
+        {
+          "type": "WORK",
+          "label": "600s@255w92rpm",
+          "duration_secs": 600,
+          "avg_power": 255,
+          "max_power": 309,
+          "avg_cadence": 91.76833,
+          "zone": 4,
+          "training_load": 14.218402
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 902,
+          "avg_power": 273,
+          "max_power": 329,
+          "avg_cadence": 90.05654,
+          "zone": 4,
+          "training_load": 24.873665
+        },
+        {
+          "type": "WORK",
+          "label": "1028s@290w86rpm",
+          "duration_secs": 1028,
+          "avg_power": 290,
+          "max_power": 339,
+          "avg_cadence": 85.886185,
+          "zone": 5,
+          "training_load": 31.975048
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 618,
+          "avg_power": 127,
+          "max_power": 298,
+          "avg_cadence": 80.58738,
+          "zone": 1,
+          "training_load": 4.5129323
         }
       ]
     }
