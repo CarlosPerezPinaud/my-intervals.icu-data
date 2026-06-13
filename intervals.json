@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T19:41:52.799320",
+  "generated_at": "2026-06-13T20:54:41.649918",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -827,6 +827,25 @@
           "duration_secs": 1687,
           "avg_hr": 72,
           "max_hr": 105,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i157038790",
+      "date": "2026-06-13",
+      "type": "Ride",
+      "name": "Endurance Stability",
+      "interval_summary": [
+        "1x 7h35m 105bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "27329s@105bpm",
+          "duration_secs": 27329,
+          "avg_hr": 105,
+          "max_hr": 155,
           "zone": 1
         }
       ]
