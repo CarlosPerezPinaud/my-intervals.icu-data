@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T16:07:49.651422",
+  "generated_at": "2026-06-20T17:48:28.554970",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -496,6 +496,44 @@
           "zone": 1,
           "training_load": 10.56102,
           "decoupling": 6.7741556
+        }
+      ]
+    },
+    {
+      "activity_id": "i158928025",
+      "date": "2026-06-20",
+      "type": "Ride",
+      "name": "Afternoon Ride",
+      "interval_summary": [
+        "1x 50m38s 115bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3038s@115bpm",
+          "duration_secs": 3038,
+          "avg_hr": 115,
+          "max_hr": 139,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i158927947",
+      "date": "2026-06-20",
+      "type": "Ride",
+      "name": "Lunch Ride",
+      "interval_summary": [
+        "1x 37m13s 116bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2233s@116bpm",
+          "duration_secs": 2233,
+          "avg_hr": 116,
+          "max_hr": 135,
+          "zone": 1
         }
       ]
     }
