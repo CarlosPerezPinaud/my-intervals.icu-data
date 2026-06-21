@@ -1,28 +1,9 @@
 {
-  "generated_at": "2026-06-20T23:45:24.504906",
+  "generated_at": "2026-06-21T04:44:20.246540",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i156830740",
-      "date": "2026-06-12",
-      "type": "VirtualRide",
-      "name": "Afternoon Ride",
-      "interval_summary": [
-        "1x 28m7s 72bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1687s@72bpm",
-          "duration_secs": 1687,
-          "avg_hr": 72,
-          "max_hr": 105,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i157038790",
       "date": "2026-06-13",
