@@ -1,51 +1,9 @@
 {
-  "generated_at": "2026-06-22T23:43:00.894523",
+  "generated_at": "2026-06-23T01:48:57.604876",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i157242554",
-      "date": "2026-06-14",
-      "type": "Ride",
-      "name": "Cycling",
-      "interval_summary": [
-        "1x 7h4m 101bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "25470s@101bpm",
-          "duration_secs": 25470,
-          "avg_hr": 101,
-          "max_hr": 140,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i157320188",
-      "date": "2026-06-14",
-      "type": "Ride",
-      "name": "Night Ride",
-      "interval_summary": [
-        "1x 28m55s 108bpm"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1
-        },
-        {
-          "type": "WORK",
-          "label": "1735s@108bpm",
-          "duration_secs": 1735,
-          "avg_hr": 108,
-          "max_hr": 129,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i157723841",
       "date": "2026-06-16",
