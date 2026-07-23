@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-23T09:59:40.378747",
+    "last_updated": "2026-07-23T11:58:16.456450",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -87,8 +87,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "green",
@@ -103,8 +103,8 @@
         "delta_bpm": 0
       },
       "sleep": {
-        "status": "amber",
-        "hours": 5.86,
+        "status": "green",
+        "hours": 7.58,
         "quality": null
       },
       "acwr": {
@@ -121,8 +121,8 @@
       }
     },
     "signal_summary": {
-      "green": 4,
-      "amber": 2,
+      "green": 5,
+      "amber": 1,
       "red": 0,
       "unavailable": 0
     },
@@ -133,18 +133,8 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "sleep",
-        "acwr"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": "Z2"
-      }
-    },
-    "reason": "P2 signal count. 2 amber (sleep, acwr) >= threshold 2.",
+    "modification": null,
+    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -214,8 +204,8 @@
       "resting_hr": 50,
       "hrv": 95.95,
       "sleep_quality": null,
-      "sleep_hours": 5.86,
-      "sleep_formatted": "5h51m",
+      "sleep_hours": 7.58,
+      "sleep_formatted": "7h35m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -233,7 +223,7 @@
       "respiration": 11.066667,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 234,
+      "steps": 7297,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -603,7 +593,7 @@
     "p_max": 938,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-23T09:59:40.377603",
+    "calculation_timestamp": "2026-07-23T11:58:16.455302",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1022,8 +1012,8 @@
       "resting_hr": 50,
       "hrv_rmssd": 95.95,
       "hrv_sdnn": null,
-      "sleep_hours": 5.86,
-      "sleep_formatted": "5h51m",
+      "sleep_hours": 7.58,
+      "sleep_formatted": "7h35m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -1045,7 +1035,7 @@
       "respiration": 11.066667,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 234,
+      "steps": 7297,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
