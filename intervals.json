@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T11:58:16.456287",
+  "generated_at": "2026-07-23T14:24:44.601930",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -424,6 +424,25 @@
           "zone": 1,
           "training_load": 59.68363,
           "decoupling": 5.292079
+        }
+      ]
+    },
+    {
+      "activity_id": "i168415839",
+      "date": "2026-07-23",
+      "type": "Run",
+      "name": "Morning Run",
+      "interval_summary": [
+        "1x 38m8s 143bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2288s@143bpm",
+          "duration_secs": 2288,
+          "avg_hr": 143,
+          "max_hr": 169,
+          "zone": 1
         }
       ]
     }
