@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-27T20:24:30.909152",
+    "last_updated": "2026-07-27T21:40:40.959336",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -607,7 +607,7 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 1.96,
+          "planned_tss_delta": 1.81,
           "hard_sessions_planned": 4,
           "race_proximity": 6,
           "next_week_load": null,
@@ -645,7 +645,7 @@
     "p_max": 935,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 60.0,
-    "calculation_timestamp": "2026-07-27T20:24:30.908349",
+    "calculation_timestamp": "2026-07-27T21:40:40.958073",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1335,11 +1335,11 @@
       "name": "FRC Expansion",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 148,
+      "planned_tss": 80,
       "duration_hours": 1.95,
       "duration_formatted": "1h57m",
-      "workout_summary": "15m @152W | 2m @138W | 8\u00d72m @373W / 3m rec | 50m @207W | 10m @152W",
-      "description": "Warmup\n- 15m Ramp 40-70% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n8x\n- 2m 135% 105rpm\n- 3m 50% 85rpm\n\nAerobic Stability\n- 50m 75% 92rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
+      "workout_summary": "15m @152W | 2m @138W | 8\u00d72m / 3m rec | 50m @207W | 10m @152W",
+      "description": "Warmup\n- 15m Ramp 40-70% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n8x\n- 2m freeride 105rpm\n- 3m 50% 85rpm\n\nAerobic Stability\n- 50m 75% 92rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
     },
     {
       "id": 125310933,
