@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 10.19,
       "total_training_formatted": "10h11m",
-      "total_activities": 11,
-      "total_tss": 526
+      "total_activities": 10,
+      "total_tss": 527
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-28T18:46:39.858785",
+    "last_updated": "2026-07-28T20:17:07.296175",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -117,7 +117,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 7.8
+        "value": 7.7
       }
     },
     "signal_summary": {
@@ -159,7 +159,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 10.19,
-    "total_activities": 11,
+    "total_activities": 10,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 6.23,
@@ -181,18 +181,18 @@
       },
       "VirtualRide": {
         "duration_decimal_hours": 3.32,
-        "count": 3,
-        "tss": 193,
-        "distance_km": 92.3
+        "count": 2,
+        "tss": 194,
+        "distance_km": 91.3
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 87.61,
-      "atl": 79.83,
-      "tsb": 7.78,
-      "ramp_rate": -1.28,
+      "ctl": 87.63,
+      "atl": 79.96,
+      "tsb": 7.67,
+      "ramp_rate": -1.26,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -277,14 +277,14 @@
     "monotony_interpretation": "normal (primary sport 0.83, total 0.91 inflated by multi-sport)",
     "primary_sport": "cycling",
     "primary_sport_monotony": 0.83,
-    "primary_sport_tss_7d": 492.0,
+    "primary_sport_tss_7d": 493.0,
     "effective_monotony": 0.83,
     "multi_sport_detected": true,
-    "strain": 479.0,
+    "strain": 480.0,
     "stress_tolerance": 5.3,
     "load_recovery_ratio": 6.9,
-    "tss_7d_total": 526.0,
-    "tss_28d_total": 2402.0,
+    "tss_7d_total": 527.0,
+    "tss_28d_total": 2403.0,
     "zone_distribution_7d": {
       "z1_hours": 3.13,
       "z2_hours": 4.73,
@@ -302,7 +302,7 @@
     "hard_days_this_week": 3,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 28323,
+      "z1_seconds": 28322,
       "z2_seconds": 5071,
       "z3_seconds": 3302,
       "z1_pct": 77.2,
@@ -313,7 +313,7 @@
       "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 26653,
+      "z1_seconds": 26652,
       "z2_seconds": 4568,
       "z3_seconds": 3190,
       "z1_pct": 77.5,
@@ -325,7 +325,7 @@
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 141560,
+      "z1_seconds": 141559,
       "z2_seconds": 22580,
       "z3_seconds": 16938,
       "z1_pct": 78.2,
@@ -336,7 +336,7 @@
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 139890,
+      "z1_seconds": 139889,
       "z2_seconds": 22077,
       "z3_seconds": 16826,
       "z1_pct": 78.2,
@@ -359,11 +359,11 @@
         "note": "Steady-state power sessions only (VI <= 1.05, VI > 0, >= 90min, power data). Negative decoupling = strong durability. Trend compares 7d vs 28d mean (+/-1% = stable)."
       },
       "efficiency_factor": {
-        "mean_ef_7d": 1.42,
+        "mean_ef_7d": null,
         "mean_ef_28d": 1.38,
-        "qualifying_sessions_7d": 2,
-        "qualifying_sessions_28d": 5,
-        "trend": "improving",
+        "qualifying_sessions_7d": 1,
+        "qualifying_sessions_28d": 4,
+        "trend": null,
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
@@ -590,7 +590,7 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 1.94,
+          "planned_tss_delta": 2.11,
           "hard_sessions_planned": 4,
           "race_proximity": 5,
           "next_week_load": null,
@@ -628,12 +628,12 @@
     "p_max": 934,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-28T18:46:39.857305",
+    "calculation_timestamp": "2026-07-28T20:17:07.132098",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 11,
-      "activities_28d": 33,
+      "activities_7d": 10,
+      "activities_28d": 32,
       "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
@@ -643,95 +643,41 @@
   },
   "recent_activities": [
     {
-      "id": "i170027283",
-      "date": "2026-07-28T13:20:49",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - Mompox City",
-      "duration_hours": 0.72,
-      "distance_km": 25.05,
-      "tss": 35,
-      "intensity_factor": 69.67509,
-      "avg_power": 188,
-      "normalized_power": 193,
-      "avg_hr": 139,
-      "max_hr": 147,
-      "avg_cadence": 84.343025,
-      "avg_speed": 34.9,
-      "max_speed": 43.8,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": 484.6,
-      "calories": 485,
-      "carbs_used": 128,
-      "carbs_ingested": null,
-      "variability_index": 1.0265957,
-      "decoupling": 6.8319964,
-      "efficiency_factor": 1.3884892,
-      "hrrc": null,
-      "elevation_m": 36.4,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 501,
-          "z2_time": 2082,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        },
-        "power_zones": {
-          "z1_time": 354,
-          "z2_time": 1747,
-          "z3_time": 481,
-          "z4_time": 1,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false
-    },
-    {
-      "id": "i170013439",
+      "id": "i170209887",
       "date": "2026-07-28T12:12:36",
       "type": "VirtualRide",
-      "name": "MyWhoosh - Hautacam Summit",
-      "duration_hours": 1.1,
-      "distance_km": 17.92,
-      "tss": 81,
-      "intensity_factor": 85.55957,
-      "avg_power": 192,
-      "normalized_power": 237,
-      "avg_hr": 145,
+      "name": "FRC Expansion",
+      "duration_hours": 1.82,
+      "distance_km": 42.0,
+      "tss": 117,
+      "intensity_factor": 80.1444,
+      "avg_power": 190,
+      "normalized_power": 222,
+      "avg_hr": 143,
       "max_hr": 183,
-      "avg_cadence": 82.834854,
-      "avg_speed": 16.2,
-      "max_speed": 53.1,
+      "avg_cadence": 83.431465,
+      "avg_speed": 23.1,
+      "max_speed": 258648.4,
       "avg_pace": null,
       "avg_temp": null,
       "weather": null,
       "humidity": null,
       "wind_speed": null,
-      "work_kj": 761.7,
-      "calories": 762,
-      "carbs_used": 225,
+      "work_kj": 1246.2,
+      "calories": 1354,
+      "carbs_used": 313,
       "carbs_ingested": null,
-      "variability_index": 1.234375,
-      "decoupling": 9.857684,
-      "efficiency_factor": 1.6344827,
+      "variability_index": 1.168421,
+      "decoupling": -1.8252531,
+      "efficiency_factor": 1.5524476,
       "hrrc": 29,
-      "elevation_m": 883.60004,
+      "elevation_m": 337.0855,
       "feel": null,
       "rpe": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 1534,
-          "z2_time": 1197,
+          "z1_time": 2034,
+          "z2_time": 3279,
           "z3_time": 312,
           "z4_time": 397,
           "z5_time": 260,
@@ -739,16 +685,17 @@
           "z7_time": 44
         },
         "power_zones": {
-          "z1_time": 2020,
-          "z2_time": 1040,
-          "z3_time": 162,
-          "z4_time": 41,
+          "z1_time": 2373,
+          "z2_time": 2787,
+          "z3_time": 643,
+          "z4_time": 42,
           "z5_time": 135,
           "z6_time": 576,
           "z7_time": 2
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "Created with GOTOES STRAVA TOOLS Version 42.9"
     },
     {
       "id": "19481903220",
@@ -1426,11 +1373,11 @@
       "name": "FRC Expansion",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 80,
+      "planned_tss": 148,
       "duration_hours": 1.95,
       "duration_formatted": "1h57m",
-      "workout_summary": "15m @152W | 2m @138W | 8\u00d72m / 3m rec | 50m @207W | 10m @152W",
-      "description": "Warmup\n- 15m Ramp 40-70% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n8x\n- 2m freeride 105rpm\n- 3m 50% 85rpm\n\nAerobic Stability\n- 50m 75% 92rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
+      "workout_summary": "15m @152W | 2m @138W | 8\u00d72m @373W / 3m rec | 50m @207W | 10m @152W",
+      "description": "Warmup\n- 15m Ramp 40-70% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n8x\n- 2m 135% 105rpm\n- 3m 50% 85rpm\n\nAerobic Stability\n- 50m 75% 92rpm\n\nCooldown\n- 10m Ramp 70-40% 90rpm"
     },
     {
       "id": 125310933,
@@ -1516,8 +1463,8 @@
   "weekly_summary": {
     "total_training_hours": 10.19,
     "total_training_formatted": "10h11m",
-    "total_tss": 526,
-    "activities_count": 11,
+    "total_tss": 527,
+    "activities_count": 10,
     "avg_hrv": 81.6,
     "avg_resting_hr": 51.7
   },
