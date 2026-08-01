@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T17:18:24.888609",
+  "generated_at": "2026-08-01T18:29:36.009622",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -676,6 +676,54 @@
           "zone": 2,
           "training_load": 33.726364,
           "decoupling": 5.3111506
+        }
+      ]
+    },
+    {
+      "activity_id": "i171503469",
+      "date": "2026-08-01",
+      "type": "Ride",
+      "name": "Endurance Overload",
+      "interval_summary": [
+        "1x 11s 707w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 14161,
+          "avg_power": 167,
+          "max_power": 714,
+          "avg_hr": 132,
+          "max_hr": 155,
+          "avg_cadence": 78.97805,
+          "zone": 2,
+          "training_load": 162.29613,
+          "decoupling": 3.2087479
+        },
+        {
+          "type": "WORK",
+          "label": "11s@707w100rpm",
+          "duration_secs": 11,
+          "avg_power": 707,
+          "max_power": 764,
+          "avg_hr": 145,
+          "max_hr": 149,
+          "avg_cadence": 100.27273,
+          "zone": 7,
+          "training_load": 0.42582008,
+          "decoupling": 12.422125
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2832,
+          "avg_power": 164,
+          "max_power": 509,
+          "avg_hr": 139,
+          "max_hr": 166,
+          "avg_cadence": 72.748825,
+          "zone": 2,
+          "training_load": 34.60547,
+          "decoupling": -3.1076453
         }
       ]
     }
