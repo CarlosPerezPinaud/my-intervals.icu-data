@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:03:06.551293",
+  "generated_at": "2026-08-09T09:57:03.070464",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1144,6 +1144,54 @@
           "zone": 1,
           "training_load": 11.267695,
           "decoupling": 0.073945045
+        }
+      ]
+    },
+    {
+      "activity_id": "i173979876",
+      "date": "2026-08-09",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Race warm-up",
+      "interval_summary": [
+        "1x 2m58s 248w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 602,
+          "avg_power": 157,
+          "max_power": 218,
+          "avg_hr": 120,
+          "max_hr": 138,
+          "avg_cadence": 87.476746,
+          "zone": 2,
+          "training_load": 5.7195845,
+          "decoupling": -19.370098
+        },
+        {
+          "type": "WORK",
+          "label": "178s@248w92rpm",
+          "duration_secs": 178,
+          "avg_power": 248,
+          "max_power": 250,
+          "avg_hr": 146,
+          "max_hr": 151,
+          "avg_cadence": 92.02809,
+          "zone": 3,
+          "training_load": 3.8680327,
+          "decoupling": 3.902792
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 335,
+          "avg_power": 184,
+          "max_power": 525,
+          "avg_hr": 136,
+          "max_hr": 150,
+          "avg_cadence": 91.695526,
+          "zone": 2,
+          "training_load": 5.658356,
+          "decoupling": -6.9817104
         }
       ]
     }
