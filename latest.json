@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-16T20:29:10.061610",
+    "last_updated": "2026-08-16T20:51:21.892025",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -571,9 +571,9 @@
           "planned_tss_delta": 1.65,
           "hard_sessions_planned": 2,
           "race_proximity": 0,
-          "next_week_load": 0.74,
+          "next_week_load": 0.83,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -606,7 +606,7 @@
     "p_max": 933,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-16T20:29:10.060170",
+    "calculation_timestamp": "2026-08-16T20:51:21.890554",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1481,11 +1481,11 @@
       "name": "Flush",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 42,
+      "planned_tss": 67,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description": "Warmup\n- 15m ramp 40%-55% 95rpm\n\nMain Set\n- 65m 55% 95rpm\n\nCooldown\n- 10m ramp 55%-40% 95rpm"
+      "description": "Warmup\n- 15m ramp 40%-70% 95rpm\n\nMain Set\n- 65m 70% 95rpm\n\nCooldown\n- 10m ramp 70%-40% 95rpm"
     },
     {
       "id": 129597636,
@@ -1493,32 +1493,44 @@
       "name": "Recovery Endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 145,
-      "duration_hours": 3.75,
-      "duration_formatted": "3h45m",
+      "planned_tss": 121,
+      "duration_hours": 3.25,
+      "duration_formatted": "3h15m",
       "workout_summary": null,
-      "description": "Warmup\n- 30m ramp 40%-64% 90rpm\n\nMain Set\n- 180m 64% 85rpm\n\nCooldown\n- 15m ramp 64%-40% 90rpm"
+      "description": "Warmup\n- 30m ramp 40%-64% 90rpm\n\nMain Set\n- 150m 63% 85rpm\n\nCooldown\n- 15m ramp 64%-40% 90rpm"
     },
     {
-      "id": 129597755,
+      "id": 129613537,
       "date": "2026-08-23",
-      "name": "Endurance Stability",
+      "name": "Race warm-up",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 97,
-      "duration_hours": 2.25,
-      "duration_formatted": "2h15m",
+      "planned_tss": 20,
+      "duration_hours": 0.41,
+      "duration_formatted": "24m20s",
+      "workout_summary": "10m @158W | 3m @249W | 2m @138W | 2\u00d730s @332W / 1m rec | 10s @526W | 1m @138W | 10s @526W | 5m @138W",
+      "description": "- 10m ramp 40-75% 95rpm\n\n- 3m 90% 100rpm\n\n- 2m 50% 90rpm\n\n2x\n- 30s 120% 105rpm\n- 1m 50% 85rpm\n\n- 10s 190% 110rpm\n- 1m 50% 85rpm\n- 10s 190% 110rpm\n- 5m 50% 90rpm"
+    },
+    {
+      "id": 129613566,
+      "date": "2026-08-23",
+      "name": "SRC",
+      "type": "RACE_C",
+      "sport_type": "VirtualRide",
+      "planned_tss": 135,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
       "workout_summary": null,
-      "description": "Warmup\n- 20m ramp 40%-68% 90rpm\n\nMain Set\n- 105m 68% 90rpm\n\nCooldown\n- 10m ramp 68%-40% 90rpm"
+      "description": ""
     }
   ],
   "workout_summary_stats": {
     "attempted": 7,
-    "success": 1,
-    "patternA": 1,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 13.18,
@@ -1545,6 +1557,15 @@
         "category": "RACE_C",
         "type": "VirtualRide",
         "days_until": 0,
+        "moving_time_seconds": 5100,
+        "distance_meters": null
+      },
+      {
+        "name": "SRC",
+        "date": "2026-08-23",
+        "category": "RACE_C",
+        "type": "VirtualRide",
+        "days_until": 7,
         "moving_time_seconds": 5100,
         "distance_meters": null
       }
