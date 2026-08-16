@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T09:42:55.867283",
+  "generated_at": "2026-08-16T10:01:08.802005",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1318,6 +1318,54 @@
           "zone": 2,
           "training_load": 23.141256,
           "decoupling": -4.5877023
+        }
+      ]
+    },
+    {
+      "activity_id": "i176360414",
+      "date": "2026-08-16",
+      "type": "VirtualRide",
+      "name": "Hudayriyat Outer Loop",
+      "interval_summary": [
+        "1x 2m58s 248w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 602,
+          "avg_power": 157,
+          "max_power": 206,
+          "avg_hr": 119,
+          "max_hr": 137,
+          "avg_cadence": 88.34219,
+          "zone": 2,
+          "training_load": 5.7195845,
+          "decoupling": -19.809872
+        },
+        {
+          "type": "WORK",
+          "label": "178s@248w97rpm",
+          "duration_secs": 178,
+          "avg_power": 248,
+          "max_power": 250,
+          "avg_hr": 145,
+          "max_hr": 151,
+          "avg_cadence": 96.64045,
+          "zone": 3,
+          "training_load": 3.8680327,
+          "decoupling": 3.733361
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 335,
+          "avg_power": 183,
+          "max_power": 525,
+          "avg_hr": 136,
+          "max_hr": 150,
+          "avg_cadence": 95.71343,
+          "zone": 2,
+          "training_load": 5.6060853,
+          "decoupling": -7.3390384
         }
       ]
     }
