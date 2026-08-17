@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T18:50:33.089291",
+  "generated_at": "2026-08-17T19:30:21.257398",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -2121,6 +2121,25 @@
           "zone": 1,
           "training_load": 0.5499612,
           "decoupling": 43.3045
+        }
+      ]
+    },
+    {
+      "activity_id": "i176894636",
+      "date": "2026-08-17",
+      "type": "Run",
+      "name": "Lunch Run",
+      "interval_summary": [
+        "1x 48m58s 124bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2938s@124bpm",
+          "duration_secs": 2938,
+          "avg_hr": 124,
+          "max_hr": 160,
+          "zone": 1
         }
       ]
     }
