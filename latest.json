@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-20T08:41:39.625994",
+    "last_updated": "2026-08-20T09:17:41.008238",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -577,7 +577,7 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 1.63,
+          "planned_tss_delta": 1.59,
           "hard_sessions_planned": 3,
           "race_proximity": 3,
           "next_week_load": null,
@@ -615,7 +615,7 @@
     "p_max": 931,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-20T08:41:39.624624",
+    "calculation_timestamp": "2026-08-20T09:17:41.007013",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1281,11 +1281,11 @@
       "name": "Threshold Maintenance",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 79,
+      "planned_tss": 70,
       "duration_hours": 1.67,
       "duration_formatted": "1h40m",
       "workout_summary": null,
-      "description": "Warmup\n- 15m ramp 40%-72% 90rpm\n\nMain Set\n- 75m 72% 95rpm\n\nCooldown\n- 10m ramp 72%-40% 90rpm"
+      "description": "Warmup\n- 15m ramp 40%-68% 90rpm\n\nMain Set\n- 75m 67% 95rpm\n\nCooldown\n- 10m ramp 67%-40% 90rpm"
     },
     {
       "id": 129597419,
