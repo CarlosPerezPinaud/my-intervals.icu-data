@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-25T08:53:06.590784",
+    "last_updated": "2026-08-25T09:38:21.114708",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -584,7 +584,7 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 0.41,
+          "planned_tss_delta": 0.4,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
@@ -622,7 +622,7 @@
     "p_max": 926,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-25T08:53:06.589450",
+    "calculation_timestamp": "2026-08-25T09:38:21.113722",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1479,11 +1479,11 @@
       "name": "NP-W2: Seated Microbursts",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 154,
-      "duration_hours": 2.44,
-      "duration_formatted": "2h26m40s",
-      "workout_summary": "15m @152W | 2m @138W | 20\u00d715s @415W / 15s rec | 5m @138W | 20\u00d715s @415W / 15s rec | 5m @138W | 20\u00d715s @415W / 15s rec | 5m @138W | 15m @180W | 10\u00d710s @775W / 2m rec | 40m @199W | 8m @154W",
-      "description": "Warmup\n- 15m ramp 40-70% 90rpm\n- 2m 50% 90rpm\n\nMicroburst Set 20x\n- 15s 150% 95rpm\n- 15s 50% 95rpm\n\n- 5m 50% 85rpm\n\nMicroburst Set 20x\n- 15s 150% 95rpm\n- 15s 50% 95rpm\n\n- 5m 50% 85rpm\n\nMicroburst Set 20x\n- 15s 150% 95rpm\n- 15s 50% 95rpm\n\n- 5m 50% 85rpm\n\nCruise\n- 15m 65% 90rpm\n\nSprints 10x\n- 10s 280% 115rpm\n- 2m 50% 85rpm\n\nAerobic Stability\n- 40m 72% 95rpm\n\nCooldown\n- 8m ramp 72-40% 90rpm"
+      "planned_tss": 150,
+      "duration_hours": 2.31,
+      "duration_formatted": "2h18m40s",
+      "workout_summary": "15m @152W | 2m @138W | 20\u00d715s @415W / 15s rec | 5m @138W | 20\u00d715s @415W / 15s rec | 5m @138W | 20\u00d715s @415W / 15s rec | 5m @138W | 15m @180W | 10\u00d710s @775W / 2m rec | 30m @207W | 10m @154W",
+      "description": "Warmup\n- 15m ramp 40-70% 90rpm\n- 2m 50% 90rpm\n\nMicroburst Set 20x\n- 15s 150% 95rpm\n- 15s 50% 95rpm\n\n- 5m 50% 85rpm\n\nMicroburst Set 20x\n- 15s 150% 95rpm\n- 15s 50% 95rpm\n\n- 5m 50% 85rpm\n\nMicroburst Set 20x\n- 15s 150% 95rpm\n- 15s 50% 95rpm\n\n- 5m 50% 85rpm\n\nCruise\n- 15m 65% 90rpm\n\nSprints 10x\n- 10s 280% 115rpm\n- 2m 50% 85rpm\n\nAerobic Stability\n- 30m 75% 95rpm\n\nCooldown\n- 10m ramp 72-40% 90rpm"
     }
   ],
   "workout_summary_stats": {
