@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-29T19:55:56.071386",
+    "last_updated": "2026-08-29T22:31:55.064119",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -112,8 +112,8 @@
         "delta_bpm": 0
       },
       "sleep": {
-        "status": "amber",
-        "hours": 5.92,
+        "status": "green",
+        "hours": 7.78,
         "quality": null
       },
       "acwr": {
@@ -126,8 +126,8 @@
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 1,
+      "green": 3,
+      "amber": 0,
       "red": 2,
       "unavailable": 0
     },
@@ -217,8 +217,8 @@
       "resting_hr": 51,
       "hrv": 31.2,
       "sleep_quality": null,
-      "sleep_hours": 5.92,
-      "sleep_formatted": "5h55m",
+      "sleep_hours": 7.78,
+      "sleep_formatted": "7h47m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -236,7 +236,7 @@
       "respiration": 11.3,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1354,
+      "steps": 2612,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -617,7 +617,7 @@
     "p_max": 925,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 59.0,
-    "calculation_timestamp": "2026-08-29T19:55:56.070259",
+    "calculation_timestamp": "2026-08-29T22:31:55.063015",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1251,8 +1251,8 @@
       "resting_hr": 51,
       "hrv_rmssd": 31.2,
       "hrv_sdnn": null,
-      "sleep_hours": 5.92,
-      "sleep_formatted": "5h55m",
+      "sleep_hours": 7.78,
+      "sleep_formatted": "7h47m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -1274,7 +1274,7 @@
       "respiration": 11.3,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1354,
+      "steps": 2612,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
