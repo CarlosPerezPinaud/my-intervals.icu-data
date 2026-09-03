@@ -62,59 +62,74 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 11.74,
-      "total_training_formatted": "11h44m",
-      "total_activities": 6,
-      "total_tss": 666
+      "total_training_hours": 13.42,
+      "total_training_formatted": "13h25m",
+      "total_activities": 9,
+      "total_tss": 794
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-03T09:53:57.189355",
+    "last_updated": "2026-09-03T14:14:49.874798",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "metric": "hrv",
+      "value": 34.2,
+      "severity": "alarm",
+      "threshold": "\u2193>20% vs baseline (57.4)",
+      "context": "HRV 34.2 is 40.4% below baseline, persisting 3 days.",
+      "persistence_days": 3,
+      "tier": 1
+    },
+    {
+      "metric": "recovery_index",
+      "value": 0.6,
+      "severity": "warning",
+      "threshold": 0.7,
+      "context": "RI 0.6 < 0.7. Monitor \u2014 if persists >3 days, deload review required.",
+      "persistence_days": null,
+      "tier": 1
+    }
+  ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "skip",
+    "priority": 0,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 61.3,
-        "delta_pct": null
+        "status": "red",
+        "value": 34.2,
+        "baseline_7d": 57.4,
+        "delta_pct": -40.4
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 51.2,
-        "delta_bpm": null
+        "status": "green",
+        "value": 51,
+        "baseline_7d": 51.1,
+        "delta_bpm": -0.1
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 7.12,
         "quality": null
       },
       "acwr": {
         "status": "green",
-        "value": 1.06
+        "value": 1.2
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
-      },
-      "tsb": {
-        "status": "green",
-        "value": 3.2
+        "status": "amber",
+        "value": 0.6
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 0,
-      "red": 0,
-      "unavailable": 4
+      "green": 3,
+      "amber": 1,
+      "red": 1,
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -124,8 +139,10 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
-    "alarm_refs": []
+    "reason": "P0 safety stop. tier-1 alarms: hrv.",
+    "alarm_refs": [
+      "hrv"
+    ]
   },
   "history": {
     "available": true,
@@ -137,29 +154,29 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 11.74,
-    "total_activities": 6,
+    "total_duration_decimal_hours": 13.42,
+    "total_activities": 9,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 11.74,
-        "count": 6,
-        "tss": 666,
-        "distance_km": 330.5
+        "duration_decimal_hours": 13.42,
+        "count": 9,
+        "tss": 794,
+        "distance_km": 383.7
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 91.88,
-      "atl": 88.72,
-      "tsb": 3.16,
-      "ramp_rate": 3.4,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 94.89,
+      "atl": 105.76,
+      "tsb": -10.87,
+      "ramp_rate": 3.33,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 278.5,
-      "w_prime": 23825,
-      "w_prime_kj": 23.8,
+      "eftp": 289.0,
+      "w_prime": 24763,
+      "w_prime_kj": 24.8,
       "p_max": 925,
       "vo2max": 59.0,
       "sports": {
@@ -190,12 +207,12 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 59.6,
-      "resting_hr": 52,
-      "hrv": null,
+      "weight_kg": 60.2,
+      "resting_hr": 51,
+      "hrv": 34.2,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.12,
+      "sleep_formatted": "7h7m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -204,16 +221,16 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 95.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
+      "respiration": 10.9,
+      "body_fat_pct": 16.2,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 403,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -225,85 +242,85 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 61.3,
-    "rhr_baseline_7d": 51.2,
-    "hrv_baseline_28d": 57.7,
+    "recovery_index": 0.6,
+    "hrv_baseline_7d": 57.4,
+    "rhr_baseline_7d": 51.1,
+    "hrv_baseline_28d": 56.8,
     "rhr_baseline_28d": 50.1,
-    "latest_hrv": null,
-    "latest_rhr": null,
-    "acwr": 1.06,
+    "latest_hrv": 34.2,
+    "latest_rhr": 51,
+    "acwr": 1.2,
     "acwr_interpretation": "optimal",
-    "monotony": 1.19,
+    "monotony": 1.66,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 1.19,
-    "primary_sport_tss_7d": 666.0,
-    "effective_monotony": 1.19,
+    "primary_sport_monotony": 1.66,
+    "primary_sport_tss_7d": 794.0,
+    "effective_monotony": 1.66,
     "multi_sport_detected": false,
-    "strain": 793.0,
-    "stress_tolerance": 6.7,
-    "load_recovery_ratio": null,
-    "tss_7d_total": 666.0,
-    "tss_28d_total": 2522.0,
+    "strain": 1318.0,
+    "stress_tolerance": 7.9,
+    "load_recovery_ratio": 13.2,
+    "tss_7d_total": 794.0,
+    "tss_28d_total": 2650.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.63,
-      "z2_hours": 8.28,
-      "z3_hours": 0.68,
-      "z4_plus_hours": 1.16,
-      "total_hours": 11.74,
+      "z1_hours": 2.37,
+      "z2_hours": 8.58,
+      "z3_hours": 0.72,
+      "z4_plus_hours": 1.74,
+      "total_hours": 13.42,
       "zone_basis": "power"
     },
-    "grey_zone_percentage": 5.8,
+    "grey_zone_percentage": 5.4,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 9.9,
+    "quality_intensity_percentage": 13.0,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.84,
+    "polarisation_index": 0.82,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "hard_days_this_week": 2,
+    "hard_days_this_week": 3,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 35671,
-      "z2_seconds": 2434,
-      "z3_seconds": 4168,
-      "z1_pct": 84.4,
-      "z2_pct": 5.8,
-      "z3_pct": 9.9,
-      "polarization_index": 2.16,
+      "z1_seconds": 39442,
+      "z2_seconds": 2606,
+      "z3_seconds": 6264,
+      "z1_pct": 81.6,
+      "z2_pct": 5.4,
+      "z3_pct": 13.0,
+      "polarization_index": 2.29,
       "classification": "Polarized",
       "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 35671,
-      "z2_seconds": 2434,
-      "z3_seconds": 4168,
-      "z1_pct": 84.4,
-      "z2_pct": 5.8,
-      "z3_pct": 9.9,
-      "polarization_index": 2.16,
+      "z1_seconds": 39442,
+      "z2_seconds": 2606,
+      "z3_seconds": 6264,
+      "z1_pct": 81.6,
+      "z2_pct": 5.4,
+      "z3_pct": 13.0,
+      "polarization_index": 2.29,
       "classification": "Polarized",
       "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 149237,
-      "z2_seconds": 10843,
-      "z3_seconds": 18066,
-      "z1_pct": 83.8,
-      "z2_pct": 6.1,
-      "z3_pct": 10.1,
-      "polarization_index": 2.14,
+      "z1_seconds": 153008,
+      "z2_seconds": 11015,
+      "z3_seconds": 20162,
+      "z1_pct": 83.1,
+      "z2_pct": 6.0,
+      "z3_pct": 10.9,
+      "polarization_index": 2.18,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 147230,
-      "z2_seconds": 10611,
-      "z3_seconds": 18066,
-      "z1_pct": 83.7,
-      "z2_pct": 6.0,
-      "z3_pct": 10.3,
-      "polarization_index": 2.15,
+      "z1_seconds": 151001,
+      "z2_seconds": 10783,
+      "z3_seconds": 20162,
+      "z1_pct": 83.0,
+      "z2_pct": 5.9,
+      "z3_pct": 11.1,
+      "polarization_index": 2.19,
       "classification": "Polarized",
       "zone_basis": "power",
       "sport": "cycling"
@@ -328,19 +345,19 @@
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
-        "mean_hrrc_7d": 29.0,
-        "mean_hrrc_28d": 26.8,
-        "qualifying_sessions_7d": 2,
-        "qualifying_sessions_28d": 8,
+        "mean_hrrc_7d": 28.7,
+        "mean_hrrc_28d": 26.9,
+        "qualifying_sessions_7d": 3,
+        "qualifying_sessions_28d": 9,
         "trend": "stable",
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
         "classification_7d": "Polarized",
         "classification_28d": "Polarized",
-        "pi_7d": 2.16,
-        "pi_28d": 2.14,
-        "pi_delta": 0.02,
+        "pi_7d": 2.29,
+        "pi_28d": 2.18,
+        "pi_delta": 0.11,
         "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
@@ -401,9 +418,9 @@
             "pct_change": 2.2
           },
           "300s": {
-            "current_bpm": 178,
+            "current_bpm": 181,
             "previous_bpm": 176,
-            "pct_change": 1.1
+            "pct_change": 2.8
           },
           "1200s": {
             "current_bpm": 170,
@@ -416,7 +433,7 @@
             "pct_change": 1.9
           }
         },
-        "rotation_index": -0.2,
+        "rotation_index": 0.6,
         "note": "Compares max sustained HR at 4 anchor durations (60s anaerobic ceiling, 300s VO2max HR, 1200s threshold HR, 3600s endurance HR) across two 28d windows. rotation_index = mean(60s,300s pct_change) - mean(1200s,3600s pct_change). Positive = intensity-biased HR shift, negative = endurance-biased. No sport filter \u2014 HR is cross-sport physiological (dominated by hardest efforts). IMPORTANT: rising max sustained HR is ambiguous \u2014 may indicate improved cardiac output (good) or accumulated fatigue/dehydration/heat (bad). Cross-reference with resting HRV, resting HR, RPE, and environmental context before interpreting. Null when either window has fewer than 3 valid anchor durations."
       },
       "sustainability_profile": {
@@ -425,108 +442,108 @@
           "start": "2026-07-24",
           "end": "2026-09-03"
         },
-        "weight_kg": 59.6,
+        "weight_kg": 60.2,
         "weight_source": "wellness_recent",
         "cycling": {
           "anchors": {
             "300s": {
               "actual_watts": 335,
-              "actual_wpkg": 5.62,
-              "actual_hr": 178,
-              "pct_lthr": 104.1,
+              "actual_wpkg": 5.56,
+              "actual_hr": 181,
+              "pct_lthr": 105.8,
               "source": "observed_outdoor",
               "coggan_watts": 294,
-              "coggan_wpkg": 4.93,
-              "cp_model_watts": 356,
-              "cp_model_wpkg": 5.97,
-              "model_divergence_pct": -5.9
+              "coggan_wpkg": 4.88,
+              "cp_model_watts": 360,
+              "cp_model_wpkg": 5.98,
+              "model_divergence_pct": -6.9
             },
             "600s": {
-              "actual_watts": 305,
-              "actual_wpkg": 5.12,
-              "actual_hr": 176,
-              "pct_lthr": 102.9,
+              "actual_watts": 320,
+              "actual_wpkg": 5.32,
+              "actual_hr": 177,
+              "pct_lthr": 103.5,
               "source": "observed_outdoor",
               "coggan_watts": 269,
-              "coggan_wpkg": 4.51,
-              "cp_model_watts": 317,
-              "cp_model_wpkg": 5.32,
-              "model_divergence_pct": -3.8
+              "coggan_wpkg": 4.47,
+              "cp_model_watts": 318,
+              "cp_model_wpkg": 5.28,
+              "model_divergence_pct": 0.6
             },
             "1200s": {
               "actual_watts": 289,
-              "actual_wpkg": 4.85,
+              "actual_wpkg": 4.8,
               "actual_hr": 170,
               "pct_lthr": 99.4,
               "source": "observed_outdoor",
               "coggan_watts": 258,
-              "coggan_wpkg": 4.33,
-              "cp_model_watts": 297,
-              "cp_model_wpkg": 4.98,
-              "model_divergence_pct": -2.7
+              "coggan_wpkg": 4.29,
+              "cp_model_watts": 298,
+              "cp_model_wpkg": 4.95,
+              "model_divergence_pct": -3.0
             },
             "1800s": {
               "actual_watts": 284,
-              "actual_wpkg": 4.77,
+              "actual_wpkg": 4.72,
               "actual_hr": 169,
               "pct_lthr": 98.8,
               "source": "observed_outdoor",
               "coggan_watts": 249,
-              "coggan_wpkg": 4.18,
-              "cp_model_watts": 290,
-              "cp_model_wpkg": 4.87,
-              "model_divergence_pct": -2.1
+              "coggan_wpkg": 4.14,
+              "cp_model_watts": 291,
+              "cp_model_wpkg": 4.83,
+              "model_divergence_pct": -2.4
             },
             "3600s": {
               "actual_watts": 258,
-              "actual_wpkg": 4.33,
+              "actual_wpkg": 4.29,
               "actual_hr": 162,
               "pct_lthr": 94.7,
               "source": "observed_outdoor",
               "coggan_watts": 238,
-              "coggan_wpkg": 3.99,
+              "coggan_wpkg": 3.95,
               "cp_model_watts": 284,
-              "cp_model_wpkg": 4.77,
+              "cp_model_wpkg": 4.72,
               "model_divergence_pct": -9.2
             },
             "5400s": {
               "actual_watts": 250,
-              "actual_wpkg": 4.19,
+              "actual_wpkg": 4.15,
               "actual_hr": 157,
               "pct_lthr": 91.8,
               "source": "observed_outdoor",
               "coggan_watts": 227,
-              "coggan_wpkg": 3.81,
-              "cp_model_watts": 281,
-              "cp_model_wpkg": 4.71,
-              "model_divergence_pct": -11.0
+              "coggan_wpkg": 3.77,
+              "cp_model_watts": 282,
+              "cp_model_wpkg": 4.68,
+              "model_divergence_pct": -11.3
             },
             "7200s": {
               "actual_watts": 209,
-              "actual_wpkg": 3.51,
+              "actual_wpkg": 3.47,
               "actual_hr": 151,
               "pct_lthr": 88.3,
               "source": "observed_outdoor",
               "coggan_watts": 216,
-              "coggan_wpkg": 3.62,
+              "coggan_wpkg": 3.59,
               "cp_model_watts": 280,
-              "cp_model_wpkg": 4.7,
+              "cp_model_wpkg": 4.65,
               "model_divergence_pct": -25.4
             }
           },
           "coverage_ratio": 1.0,
           "ftp_used": 277,
-          "w_prime_used": 23825,
+          "w_prime_used": 24763,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       }
     },
-    "consistency_index": 0.83,
+    "consistency_index": 1.0,
     "consistency_details": {
       "planned_days": 6,
-      "completed_days": 5,
-      "matched_days": 5,
+      "completed_days": 6,
+      "matched_days": 6,
       "planned_dates": [
         "2026-08-28",
         "2026-08-29",
@@ -540,7 +557,8 @@
         "2026-08-29",
         "2026-08-30",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "phase_detection": {
@@ -549,16 +567,16 @@
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": 0.75,
+          "ctl_slope": 1.5,
           "acwr_trend": "rising",
-          "hard_day_pattern": 2.8,
+          "hard_day_pattern": 3,
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 1.95,
+          "planned_tss_delta": 1.81,
           "hard_sessions_planned": 4,
           "race_proximity": 3,
-          "next_week_load": 0.3,
+          "next_week_load": 0.28,
           "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 0.4
         },
@@ -587,18 +605,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 278.5,
-    "w_prime": 23825,
-    "w_prime_kj": 23.8,
+    "eftp": 289.0,
+    "w_prime": 24763,
+    "w_prime_kj": 24.8,
     "p_max": 925,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 59.0,
-    "calculation_timestamp": "2026-09-03T09:53:57.187642",
+    "calculation_timestamp": "2026-09-03T14:14:49.380423",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
-      "activities_7d": 6,
-      "activities_28d": 39,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
+      "activities_7d": 9,
+      "activities_28d": 42,
       "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
@@ -607,6 +625,168 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i182850093",
+      "date": "2026-09-03T13:45:48",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Seated Surges Short",
+      "duration_hours": 0.64,
+      "distance_km": 17.32,
+      "tss": 49,
+      "intensity_factor": 87.00361,
+      "avg_power": 211,
+      "normalized_power": 241,
+      "avg_hr": 151,
+      "max_hr": 176,
+      "avg_cadence": 82.73599,
+      "avg_speed": 27.0,
+      "max_speed": 56.9,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 487.2,
+      "calories": 487,
+      "carbs_used": 120,
+      "carbs_ingested": null,
+      "variability_index": 1.1421801,
+      "decoupling": 9.849187,
+      "efficiency_factor": 1.5960265,
+      "hrrc": null,
+      "elevation_m": 368.20007,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 804,
+          "z2_time": 242,
+          "z3_time": 133,
+          "z4_time": 873,
+          "z5_time": 238,
+          "z6_time": 5,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 626,
+          "z2_time": 478,
+          "z3_time": 37,
+          "z4_time": 1004,
+          "z5_time": 53,
+          "z6_time": 102,
+          "z7_time": 7
+        }
+      },
+      "has_intervals": true
+    },
+    {
+      "id": "i182830791",
+      "date": "2026-09-03T12:38:16",
+      "type": "VirtualRide",
+      "name": "MyWhoosh Power Passport",
+      "duration_hours": 1.02,
+      "distance_km": 35.46,
+      "tss": 79,
+      "intensity_factor": 88.447655,
+      "avg_power": 198,
+      "normalized_power": 245,
+      "avg_hr": 139,
+      "max_hr": 186,
+      "avg_cadence": 84.10429,
+      "avg_speed": 34.9,
+      "max_speed": 48.9,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 725.1,
+      "calories": 726,
+      "carbs_used": 189,
+      "carbs_ingested": null,
+      "variability_index": 1.2373737,
+      "decoupling": -7.230798,
+      "efficiency_factor": 1.7625899,
+      "hrrc": 28,
+      "elevation_m": 1.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 2412,
+          "z2_time": 229,
+          "z3_time": 89,
+          "z4_time": 224,
+          "z5_time": 155,
+          "z6_time": 344,
+          "z7_time": 189
+        },
+        "power_zones": {
+          "z1_time": 1992,
+          "z2_time": 599,
+          "z3_time": 135,
+          "z4_time": 34,
+          "z5_time": 635,
+          "z6_time": 242,
+          "z7_time": 19
+        }
+      },
+      "has_intervals": true
+    },
+    {
+      "id": "i182809484",
+      "date": "2026-09-03T12:33:05",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - City Beach",
+      "duration_hours": 0.02,
+      "distance_km": 0.44,
+      "tss": 0,
+      "intensity_factor": 44.765343,
+      "avg_power": 96,
+      "normalized_power": 124,
+      "avg_hr": 101,
+      "max_hr": 119,
+      "avg_cadence": 67.23529,
+      "avg_speed": 20.8,
+      "max_speed": 35.9,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 7.1,
+      "calories": 7,
+      "carbs_used": 64,
+      "carbs_ingested": null,
+      "variability_index": 1.2916666,
+      "decoupling": null,
+      "efficiency_factor": 1.2277228,
+      "hrrc": null,
+      "elevation_m": 4.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 76,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 47,
+          "z2_time": 29,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false
+    },
     {
       "id": "i182449657",
       "date": "2026-09-02T12:06:56",
@@ -1172,12 +1352,12 @@
     },
     {
       "date": "2026-09-03",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "weight_kg": 60.2,
+      "resting_hr": 51,
+      "hrv_rmssd": 34.2,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.12,
+      "sleep_formatted": "7h7m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -1190,16 +1370,16 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 95.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
+      "respiration": 10.9,
+      "body_fat_pct": 16.2,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 403,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1229,11 +1409,11 @@
       "name": "MyWhoosh Power Passport",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 72,
+      "planned_tss": 75,
       "duration_hours": 1.0,
       "duration_formatted": "1h6s",
-      "workout_summary": "5m @174W | 4\u00d730s @181W / 30s rec | 3m @139W | 6s @831W | 54s @138W | 6s @831W | 7m @138W | 3m @350W | 20m @138W | 12m @310W | 5m @138W",
-      "description": "Hello there! Are you ready to dive into the MyWhoosh Power Passport workout?\nToday's workout is going to be challenging, but you are fully prepared for it!\nGood testing will not only identify your strengths.\nIt will also verify your performance in MyWhoosh racing.\nMyWhoosh strives to offer fun and fair racing for all.\nMyWhoosh can detect if your test intervals represent your true performance.\nYou will receive a notification if we believe there's still more potential to tap into.\nTo avoid any unnecessary race annulments, we need your best performance in these test intervals.\nFor today's workout, we are going to test you across a range of durations.\nIncluding 6sec, 3min and 12min.\nThe 1st part of the warmup involves performing high cadence surges.\nGive those legs a good spin in these efforts.\nLet's get those muscles warmed up and ready for some serious power and speed during the main set!\n- 50.4%-75.4% 5m\nPrepare yourself for the initial 30sec surge.\n\n4x\n- 65.4% 30s\n- 85.4% 30s\n\nYour legs should be feeling nicely warmed up by now.\nIn today's session, you will be provided with intervals of free-riding.\nDuring these free-ride intervals, really give it your all and put in your best effort.\nNo need to turn ERG mode off.\nYou will be provided with the feeling of a flat road for these free-ride intervals.\nNext, we have two 6sec maximum sprints.\nSelect a gear that will enable you to produce big power.\nWe go in 20sec!\n- 50.4% 3m\nGO GO GO!\n- 300% 6s\nA very brief recovery, then we go again!\nChoose a different gear if you need to.\nIt's time to gear up for another sprint!\nWe go in 10sec!\n- 50% 54s\nGO GO GO!\n- 300% 6s\nThat was nice peak power!\nTake a quick breather before the next round of testing.\nRecovering from 6sec efforts doesn't take too long.\nThe next test interval is 3min.\nWe are looking for a maximal effort from you in this test interval.\nAre you ready to give it your all in this next 3min effort?\nI know you are!\nLet's start getting ready for this maximal effort!\nFeel free to shift gears as often as needed to achieve maximum power output during the interval.\nShow me what you are made of in this effort!\nI want you to start out VERY hard in the opening 30sec.\nThen hang on as best you can for the remaining time.\nAim to lift over the middle portion. This should be hard!\nAnd finally, aim to maintain your avg power over the closing minute, or lift again.\nAre you all set for a maximum 3min effort?\nGood luck! You've got this!\nReady... Here we go!\nStarting in 10sec!\n- 50% 7m\nGo! Give me a really hard start here!\nNow dig in and hold this power!\nFocus on controlled breathing.\nThat's halfway!\nLet's go. Give me a maximal effort!\nHave a look at your avg power. You can increase this!\nLast 20sec. Give it everything!!!\nFinished!\n- 350w 3m\nGreat work!\nHow did that feel?\nDid you give it your all and produce a maximum effort?\nAfter an effort like that, we need a long period of recovery now.\nRemember to keep yourself hydrated.\nEnjoy this easy spin before the next test interval.\nAdequate recovery between test efforts is essential to assess your performance accurately.\nAside from the data collected today, this session is quality training on its own.\nKeep in mind, MyWhoosh will use today's data to validate your performance.\nYou must give each interval your best effort.\nMyWhoosh can detect if your test intervals represent your true performance.\nYou will receive a notification if we believe there's still more potential to tap into.\nTo avoid any unnecessary race annulments, we need your best performance in these test intervals.\nJust under 10min until we begin the final test interval.\nI know you're eager to get into the next test interval.\nRest assured, this recovery period will truly make a significant difference!\nFor the last part of the test, you'll be pushing yourself to the limit with a 12min maximum effort.\nBased on your earlier intervals, you should have an idea of the target power for this next effort.\nFeel free to change gears as often as you need to produce your best power during the interval.\nYour goal is to achieve a steady and maximum power output for 12min.\nAny increase or decrease in power should be gradual.\nIf you are sprinting at the end, you have more than likely not gone hard enough earlier.\nIt's important to pace your effort.\nEnjoy these recovery periods. You certainly deserve them!\nAlthough this requires maximal effort, the first 2min should feel challenging yet manageable.\nThen aim to sustain or even increase this effort during the middle section.\nAnd finally, give it everything you have in the closing minute!\nGet ready to give it your all!\nMentally prepare yourself for a maximal effort and give it your best shot.\nThis is going to be a BIG effort!\nReady... Here we go!\nIn 10sec!\n- 50% 20m\nGo!\nLooking for hard, but comfortable here.\nEstablish a nice rhythm.\nPace your effort here.\nHave a look at your avg power.\nDon't go out too hard! Controlled effort here.\nThat's 4min down!\nKeep up the fantastic work!\nThis is where things start to get serious.\nHalfway! Look at the avg power on the screen.\nYou are not going below this!\nKeep your cadence up. Stay on top of the gear.\nLet's see what you've got! Show me your best effort.\nHow is your avg power? Rising or falling?\nFight to hold this power.\nTry to lift the power a little now!\nNot long to go now. Dig in!\nLet's go! Give me some good data here!\nInto the final minute. Hold this power!\nLast 30sec. Give it everything!!!\nThere's the line!\nFinished!\n- 310W 12m\nAmazing effort from you!\nYour performance has been outstanding!\nTesting is always hard and unpleasant!\nBut there's just something about it that feels so satisfying!\nThat completes the MyWhoosh Power Passport test.\nEnjoy a relaxing spin now that you've accomplished so much hard work.\nOnce you complete the workout, you will receive your FTP result.\nWhat's crucial is that you have ensured the accuracy of your data on MyWhoosh by updating your Power Passport.\nMaybe have a recovery day tomorrow!\nIf you need a longer cooldown, feel free to stay in MyWhoosh and ride a little longer.\nAll the best in your training, and we look forward to seeing you again for your re-testing in 4-6 weeks!\nKeep up the great work!\n- 50% 5m"
+      "workout_summary": "5m @174W | 4\u00d730s @181W / 30s rec | 3m @139W | 6s @831W | 54s @138W | 6s @831W | 7m @138W | 3m @370W | 20m @138W | 12m @315W | 5m @138W",
+      "description": "Hello there! Are you ready to dive into the MyWhoosh Power Passport workout?\nToday's workout is going to be challenging, but you are fully prepared for it!\nGood testing will not only identify your strengths.\nIt will also verify your performance in MyWhoosh racing.\nMyWhoosh strives to offer fun and fair racing for all.\nMyWhoosh can detect if your test intervals represent your true performance.\nYou will receive a notification if we believe there's still more potential to tap into.\nTo avoid any unnecessary race annulments, we need your best performance in these test intervals.\nFor today's workout, we are going to test you across a range of durations.\nIncluding 6sec, 3min and 12min.\nThe 1st part of the warmup involves performing high cadence surges.\nGive those legs a good spin in these efforts.\nLet's get those muscles warmed up and ready for some serious power and speed during the main set!\n- 50.4%-75.4% 5m\nPrepare yourself for the initial 30sec surge.\n\n4x\n- 65.4% 30s\n- 85.4% 30s\n\nYour legs should be feeling nicely warmed up by now.\nIn today's session, you will be provided with intervals of free-riding.\nDuring these free-ride intervals, really give it your all and put in your best effort.\nNo need to turn ERG mode off.\nYou will be provided with the feeling of a flat road for these free-ride intervals.\nNext, we have two 6sec maximum sprints.\nSelect a gear that will enable you to produce big power.\nWe go in 20sec!\n- 50.4% 3m\nGO GO GO!\n- 300% 6s\nA very brief recovery, then we go again!\nChoose a different gear if you need to.\nIt's time to gear up for another sprint!\nWe go in 10sec!\n- 50% 54s\nGO GO GO!\n- 300% 6s\nThat was nice peak power!\nTake a quick breather before the next round of testing.\nRecovering from 6sec efforts doesn't take too long.\nThe next test interval is 3min.\nWe are looking for a maximal effort from you in this test interval.\nAre you ready to give it your all in this next 3min effort?\nI know you are!\nLet's start getting ready for this maximal effort!\nFeel free to shift gears as often as needed to achieve maximum power output during the interval.\nShow me what you are made of in this effort!\nI want you to start out VERY hard in the opening 30sec.\nThen hang on as best you can for the remaining time.\nAim to lift over the middle portion. This should be hard!\nAnd finally, aim to maintain your avg power over the closing minute, or lift again.\nAre you all set for a maximum 3min effort?\nGood luck! You've got this!\nReady... Here we go!\nStarting in 10sec!\n- 50% 7m\nGo! Give me a really hard start here!\nNow dig in and hold this power!\nFocus on controlled breathing.\nThat's halfway!\nLet's go. Give me a maximal effort!\nHave a look at your avg power. You can increase this!\nLast 20sec. Give it everything!!!\nFinished!\n- 370w 3m\nGreat work!\nHow did that feel?\nDid you give it your all and produce a maximum effort?\nAfter an effort like that, we need a long period of recovery now.\nRemember to keep yourself hydrated.\nEnjoy this easy spin before the next test interval.\nAdequate recovery between test efforts is essential to assess your performance accurately.\nAside from the data collected today, this session is quality training on its own.\nKeep in mind, MyWhoosh will use today's data to validate your performance.\nYou must give each interval your best effort.\nMyWhoosh can detect if your test intervals represent your true performance.\nYou will receive a notification if we believe there's still more potential to tap into.\nTo avoid any unnecessary race annulments, we need your best performance in these test intervals.\nJust under 10min until we begin the final test interval.\nI know you're eager to get into the next test interval.\nRest assured, this recovery period will truly make a significant difference!\nFor the last part of the test, you'll be pushing yourself to the limit with a 12min maximum effort.\nBased on your earlier intervals, you should have an idea of the target power for this next effort.\nFeel free to change gears as often as you need to produce your best power during the interval.\nYour goal is to achieve a steady and maximum power output for 12min.\nAny increase or decrease in power should be gradual.\nIf you are sprinting at the end, you have more than likely not gone hard enough earlier.\nIt's important to pace your effort.\nEnjoy these recovery periods. You certainly deserve them!\nAlthough this requires maximal effort, the first 2min should feel challenging yet manageable.\nThen aim to sustain or even increase this effort during the middle section.\nAnd finally, give it everything you have in the closing minute!\nGet ready to give it your all!\nMentally prepare yourself for a maximal effort and give it your best shot.\nThis is going to be a BIG effort!\nReady... Here we go!\nIn 10sec!\n- 50% 20m\nGo!\nLooking for hard, but comfortable here.\nEstablish a nice rhythm.\nPace your effort here.\nHave a look at your avg power.\nDon't go out too hard! Controlled effort here.\nThat's 4min down!\nKeep up the fantastic work!\nThis is where things start to get serious.\nHalfway! Look at the avg power on the screen.\nYou are not going below this!\nKeep your cadence up. Stay on top of the gear.\nLet's see what you've got! Show me your best effort.\nHow is your avg power? Rising or falling?\nFight to hold this power.\nTry to lift the power a little now!\nNot long to go now. Dig in!\nLet's go! Give me some good data here!\nInto the final minute. Hold this power!\nLast 30sec. Give it everything!!!\nThere's the line!\nFinished!\n- 315W 12m\nAmazing effort from you!\nYour performance has been outstanding!\nTesting is always hard and unpleasant!\nBut there's just something about it that feels so satisfying!\nThat completes the MyWhoosh Power Passport test.\nEnjoy a relaxing spin now that you've accomplished so much hard work.\nOnce you complete the workout, you will receive your FTP result.\nWhat's crucial is that you have ensured the accuracy of your data on MyWhoosh by updating your Power Passport.\nMaybe have a recovery day tomorrow!\nIf you need a longer cooldown, feel free to stay in MyWhoosh and ride a little longer.\nAll the best in your training, and we look forward to seeing you again for your re-testing in 4-6 weeks!\nKeep up the great work!\n- 50% 5m"
     },
     {
       "id": 133045075,
@@ -1316,12 +1496,12 @@
     "bail_no_match": 2
   },
   "weekly_summary": {
-    "total_training_hours": 11.74,
-    "total_training_formatted": "11h44m",
-    "total_tss": 666,
-    "activities_count": 6,
-    "avg_hrv": 61.3,
-    "avg_resting_hr": 51.2
+    "total_training_hours": 13.42,
+    "total_training_formatted": "13h25m",
+    "total_tss": 794,
+    "activities_count": 9,
+    "avg_hrv": 57.4,
+    "avg_resting_hr": 51.1
   },
   "race_calendar": {
     "next_race": {
