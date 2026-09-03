@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-03T05:10:59.256779",
+    "last_updated": "2026-09-03T09:53:57.189355",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -556,10 +556,10 @@
         },
         "stream_2": {
           "planned_tss_delta": 1.95,
-          "hard_sessions_planned": 3,
+          "hard_sessions_planned": 4,
           "race_proximity": 3,
           "next_week_load": 0.3,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
@@ -593,13 +593,13 @@
     "p_max": 925,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 59.0,
-    "calculation_timestamp": "2026-09-03T05:10:59.255112",
+    "calculation_timestamp": "2026-09-03T09:53:57.187642",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 6,
       "activities_28d": 39,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 161
@@ -1214,14 +1214,26 @@
     {
       "id": 133045074,
       "date": "2026-09-03",
-      "name": "LT-W15: Seated Surges",
+      "name": "Seated Surges Short",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 131,
-      "duration_hours": 1.95,
-      "duration_formatted": "1h57m",
-      "workout_summary": "15m @152W | 2m @138W | 10\u00d71m50s @263W / 10s rec | 10m @138W | 10\u00d71m50s @263W / 10s rec | 10m @138W | 30m @202W | 10m @152W",
-      "description": "Warmup\n- 15m ramp 40%-70% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n10x\n- 110s 95% 95rpm\n- 10s 150% 110rpm\n\n- 10m 50% 85rpm\n\n10x\n- 110s 95% 95rpm\n- 10s 150% 110rpm\n\n- 10m 50% 85rpm\n\nAerobic Finish\n- 30m 73% 95rpm\n\nCooldown\n- 10m ramp 70%-40% 90rpm"
+      "planned_tss": 58,
+      "duration_hours": 0.78,
+      "duration_formatted": "47m",
+      "workout_summary": "5m @152W | 2m @138W | 10\u00d71m50s @263W / 10s rec | 10m @221W | 10m @152W",
+      "description": "Warmup\n- 5m ramp 40%-70% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n10x\n- 110s 95% 95rpm\n- 10s 150% 110rpm\n\n-10m 80%\n\nCooldown\n- 10m ramp 70%-40% 90rpm"
+    },
+    {
+      "id": 133557187,
+      "date": "2026-09-03",
+      "name": "MyWhoosh Power Passport",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 72,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h6s",
+      "workout_summary": "5m @174W | 4\u00d730s @181W / 30s rec | 3m @139W | 6s @831W | 54s @138W | 6s @831W | 7m @138W | 3m @350W | 20m @138W | 12m @310W | 5m @138W",
+      "description": "Hello there! Are you ready to dive into the MyWhoosh Power Passport workout?\nToday's workout is going to be challenging, but you are fully prepared for it!\nGood testing will not only identify your strengths.\nIt will also verify your performance in MyWhoosh racing.\nMyWhoosh strives to offer fun and fair racing for all.\nMyWhoosh can detect if your test intervals represent your true performance.\nYou will receive a notification if we believe there's still more potential to tap into.\nTo avoid any unnecessary race annulments, we need your best performance in these test intervals.\nFor today's workout, we are going to test you across a range of durations.\nIncluding 6sec, 3min and 12min.\nThe 1st part of the warmup involves performing high cadence surges.\nGive those legs a good spin in these efforts.\nLet's get those muscles warmed up and ready for some serious power and speed during the main set!\n- 50.4%-75.4% 5m\nPrepare yourself for the initial 30sec surge.\n\n4x\n- 65.4% 30s\n- 85.4% 30s\n\nYour legs should be feeling nicely warmed up by now.\nIn today's session, you will be provided with intervals of free-riding.\nDuring these free-ride intervals, really give it your all and put in your best effort.\nNo need to turn ERG mode off.\nYou will be provided with the feeling of a flat road for these free-ride intervals.\nNext, we have two 6sec maximum sprints.\nSelect a gear that will enable you to produce big power.\nWe go in 20sec!\n- 50.4% 3m\nGO GO GO!\n- 300% 6s\nA very brief recovery, then we go again!\nChoose a different gear if you need to.\nIt's time to gear up for another sprint!\nWe go in 10sec!\n- 50% 54s\nGO GO GO!\n- 300% 6s\nThat was nice peak power!\nTake a quick breather before the next round of testing.\nRecovering from 6sec efforts doesn't take too long.\nThe next test interval is 3min.\nWe are looking for a maximal effort from you in this test interval.\nAre you ready to give it your all in this next 3min effort?\nI know you are!\nLet's start getting ready for this maximal effort!\nFeel free to shift gears as often as needed to achieve maximum power output during the interval.\nShow me what you are made of in this effort!\nI want you to start out VERY hard in the opening 30sec.\nThen hang on as best you can for the remaining time.\nAim to lift over the middle portion. This should be hard!\nAnd finally, aim to maintain your avg power over the closing minute, or lift again.\nAre you all set for a maximum 3min effort?\nGood luck! You've got this!\nReady... Here we go!\nStarting in 10sec!\n- 50% 7m\nGo! Give me a really hard start here!\nNow dig in and hold this power!\nFocus on controlled breathing.\nThat's halfway!\nLet's go. Give me a maximal effort!\nHave a look at your avg power. You can increase this!\nLast 20sec. Give it everything!!!\nFinished!\n- 350w 3m\nGreat work!\nHow did that feel?\nDid you give it your all and produce a maximum effort?\nAfter an effort like that, we need a long period of recovery now.\nRemember to keep yourself hydrated.\nEnjoy this easy spin before the next test interval.\nAdequate recovery between test efforts is essential to assess your performance accurately.\nAside from the data collected today, this session is quality training on its own.\nKeep in mind, MyWhoosh will use today's data to validate your performance.\nYou must give each interval your best effort.\nMyWhoosh can detect if your test intervals represent your true performance.\nYou will receive a notification if we believe there's still more potential to tap into.\nTo avoid any unnecessary race annulments, we need your best performance in these test intervals.\nJust under 10min until we begin the final test interval.\nI know you're eager to get into the next test interval.\nRest assured, this recovery period will truly make a significant difference!\nFor the last part of the test, you'll be pushing yourself to the limit with a 12min maximum effort.\nBased on your earlier intervals, you should have an idea of the target power for this next effort.\nFeel free to change gears as often as you need to produce your best power during the interval.\nYour goal is to achieve a steady and maximum power output for 12min.\nAny increase or decrease in power should be gradual.\nIf you are sprinting at the end, you have more than likely not gone hard enough earlier.\nIt's important to pace your effort.\nEnjoy these recovery periods. You certainly deserve them!\nAlthough this requires maximal effort, the first 2min should feel challenging yet manageable.\nThen aim to sustain or even increase this effort during the middle section.\nAnd finally, give it everything you have in the closing minute!\nGet ready to give it your all!\nMentally prepare yourself for a maximal effort and give it your best shot.\nThis is going to be a BIG effort!\nReady... Here we go!\nIn 10sec!\n- 50% 20m\nGo!\nLooking for hard, but comfortable here.\nEstablish a nice rhythm.\nPace your effort here.\nHave a look at your avg power.\nDon't go out too hard! Controlled effort here.\nThat's 4min down!\nKeep up the fantastic work!\nThis is where things start to get serious.\nHalfway! Look at the avg power on the screen.\nYou are not going below this!\nKeep your cadence up. Stay on top of the gear.\nLet's see what you've got! Show me your best effort.\nHow is your avg power? Rising or falling?\nFight to hold this power.\nTry to lift the power a little now!\nNot long to go now. Dig in!\nLet's go! Give me some good data here!\nInto the final minute. Hold this power!\nLast 30sec. Give it everything!!!\nThere's the line!\nFinished!\n- 310W 12m\nAmazing effort from you!\nYour performance has been outstanding!\nTesting is always hard and unpleasant!\nBut there's just something about it that feels so satisfying!\nThat completes the MyWhoosh Power Passport test.\nEnjoy a relaxing spin now that you've accomplished so much hard work.\nOnce you complete the workout, you will receive your FTP result.\nWhat's crucial is that you have ensured the accuracy of your data on MyWhoosh by updating your Power Passport.\nMaybe have a recovery day tomorrow!\nIf you need a longer cooldown, feel free to stay in MyWhoosh and ride a little longer.\nAll the best in your training, and we look forward to seeing you again for your re-testing in 4-6 weeks!\nKeep up the great work!\n- 50% 5m"
     },
     {
       "id": 133045075,
@@ -1296,9 +1308,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 6,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 2
