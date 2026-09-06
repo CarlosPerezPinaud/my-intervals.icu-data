@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T06:23:07.831856",
+  "generated_at": "2026-09-06T11:15:28.621419",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -3455,6 +3455,54 @@
           "zone": 1,
           "training_load": 7.4133964,
           "decoupling": -8.804147
+        }
+      ]
+    },
+    {
+      "activity_id": "i183844879",
+      "date": "2026-09-06",
+      "type": "VirtualRide",
+      "name": "Al Wathba-S",
+      "interval_summary": [
+        "1x 3m28s 250w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 574,
+          "avg_power": 160,
+          "max_power": 224,
+          "avg_hr": 117,
+          "max_hr": 136,
+          "avg_cadence": 86.01219,
+          "zone": 2,
+          "training_load": 5.3442597,
+          "decoupling": -16.16908
+        },
+        {
+          "type": "WORK",
+          "label": "208s@250w90rpm",
+          "duration_secs": 208,
+          "avg_power": 250,
+          "max_power": 281,
+          "avg_hr": 142,
+          "max_hr": 148,
+          "avg_cadence": 90.28846,
+          "zone": 3,
+          "training_load": 4.410317,
+          "decoupling": 0.85762435
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 158,
+          "avg_power": 184,
+          "max_power": 370,
+          "avg_hr": 131,
+          "max_hr": 149,
+          "avg_cadence": 91.51266,
+          "zone": 2,
+          "training_load": 2.4284916,
+          "decoupling": -54.844803
         }
       ]
     }
