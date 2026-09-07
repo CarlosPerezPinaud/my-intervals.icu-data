@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-07T21:20:11.508693",
+    "last_updated": "2026-09-07T23:40:37.235779",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -219,7 +219,7 @@
       "respiration": 11.133333,
       "body_fat_pct": 16.0,
       "abdomen_cm": null,
-      "steps": 3895,
+      "steps": 5608,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -562,11 +562,11 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 0.35,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 1.84,
+          "hard_sessions_planned": 4,
           "race_proximity": 6,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -600,7 +600,7 @@
     "p_max": 925,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 59.0,
-    "calculation_timestamp": "2026-09-07T21:20:11.506913",
+    "calculation_timestamp": "2026-09-07T23:40:37.233981",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1314,7 +1314,7 @@
       "respiration": 11.133333,
       "body_fat_pct": 16.0,
       "abdomen_cm": null,
-      "steps": 3895,
+      "steps": 5608,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1326,6 +1326,66 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 134653490,
+      "date": "2026-09-08",
+      "name": "NP-W2: Seated Microbursts",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 149,
+      "duration_hours": 2.31,
+      "duration_formatted": "2h18m40s",
+      "workout_summary": "15m @156W | 2m @142W | 20\u00d715s @427W / 15s rec | 5m @142W | 20\u00d715s @427W / 15s rec | 5m @142W | 20\u00d715s @427W / 15s rec | 5m @142W | 15m @185W | 10\u00d710s @798W / 2m rec | 30m @213W | 10m @160W",
+      "description": "Warmup\n- 15m ramp 40-70% 90rpm\n- 2m 50% 90rpm\n\nMicroburst Set 20x\n- 15s 150% 95rpm\n- 15s 50% 95rpm\n\n- 5m 50% 85rpm\n\nMicroburst Set 20x\n- 15s 150% 95rpm\n- 15s 50% 95rpm\n\n- 5m 50% 85rpm\n\nMicroburst Set 20x\n- 15s 150% 95rpm\n- 15s 50% 95rpm\n\n- 5m 50% 85rpm\n\nCruise\n- 15m 65% 90rpm\n\nSprints 10x\n- 10s 280% 115rpm\n- 2m 50% 85rpm\n\nAerobic Stability\n- 30m 75% 95rpm\n\nCooldown\n- 10m ramp 72-40% 90rpm"
+    },
+    {
+      "id": 134653491,
+      "date": "2026-09-09",
+      "name": "Wednesday Aerobic Floor",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 85,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description": "Warmup\n- 10m Ramp 40-68% 90rpm\n\nMain Set\n- 100m 67% 92rpm\n\nCooldown\n- 10m Ramp 68-40% 90rpm"
+    },
+    {
+      "id": 134653492,
+      "date": "2026-09-10",
+      "name": "LT-W15: Seated Surges",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 130,
+      "duration_hours": 1.95,
+      "duration_formatted": "1h57m",
+      "workout_summary": "15m @156W | 2m @142W | 10\u00d71m50s @270W / 10s rec | 10m @142W | 10\u00d71m50s @270W / 10s rec | 10m @142W | 30m @208W | 10m @156W",
+      "description": "Warmup\n- 15m ramp 40%-70% 90rpm\n- 2m 50% 90rpm\n\nMain Set\n10x\n- 110s 95% 95rpm\n- 10s 150% 110rpm\n\n- 10m 50% 85rpm\n\n10x\n- 110s 95% 95rpm\n- 10s 150% 110rpm\n\n- 10m 50% 85rpm\n\nAerobic Finish\n- 30m 73% 95rpm\n\nCooldown\n- 10m ramp 70%-40% 90rpm"
+    },
+    {
+      "id": 134653493,
+      "date": "2026-09-11",
+      "name": "Aerobic Floor",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 85,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description": "Warmup\n- 10m Ramp 40-68% 90rpm\n\nMain Set\n- 100m 67% 92rpm\n\nCooldown\n- 10m Ramp 68-40% 90rpm"
+    },
+    {
+      "id": 134653494,
+      "date": "2026-09-12",
+      "name": "Endurance Overload",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 201,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
+      "workout_summary": null,
+      "description": "Warmup\n- 10m Ramp 40-70% 90rpm\n\nMain Set\n- 220m 72% 85rpm\n\nCooldown\n- 10m Ramp 72-40% 90rpm"
+    },
     {
       "id": 131696773,
       "date": "2026-09-13",
@@ -1352,12 +1412,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 6,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 14.6,
