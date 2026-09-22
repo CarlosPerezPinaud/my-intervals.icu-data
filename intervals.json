@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T01:54:01.814982",
+  "generated_at": "2026-09-22T07:29:25.964953",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -75,6 +75,53 @@
           "zone": 2,
           "training_load": 0.512371,
           "decoupling": 1.3501084
+        }
+      ]
+    },
+    {
+      "activity_id": "i189077323",
+      "date": "2026-09-21",
+      "type": "Ride",
+      "name": "Cycling",
+      "interval_summary": [
+        "1x 68s 315w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 19258,
+          "avg_power": 116,
+          "max_power": 402,
+          "avg_hr": 113,
+          "max_hr": 152,
+          "avg_cadence": 69.01411,
+          "zone": 1,
+          "training_load": 71.12466
+        },
+        {
+          "type": "WORK",
+          "label": "68s@315w96rpm",
+          "duration_secs": 68,
+          "avg_power": 315,
+          "max_power": 410,
+          "avg_hr": 160,
+          "max_hr": 165,
+          "avg_cadence": 96.07353,
+          "zone": 5,
+          "training_load": 2.1069279,
+          "decoupling": 6.682114
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5204,
+          "avg_power": 102,
+          "max_power": 411,
+          "avg_hr": 115,
+          "max_hr": 167,
+          "avg_cadence": 57.83012,
+          "zone": 1,
+          "training_load": 24.926355,
+          "decoupling": -11.866101
         }
       ]
     }
