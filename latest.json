@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-24T12:00:49.319753",
+    "last_updated": "2026-10-24T15:58:22.700508",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -145,10 +145,10 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
-      "phase_week": 2,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "phase": "Build",
+      "phase_week": 1,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": {
@@ -193,8 +193,8 @@
       "ctl": 67.33,
       "atl": 18.19,
       "tsb": 49.14,
-      "ramp_rate": -10.59,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -8.85,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 280.7,
@@ -562,14 +562,15 @@
         }
       }
     },
-    "consistency_index": 1.0,
+    "consistency_index": 0.67,
     "consistency_details": {
-      "planned_days": 2,
+      "planned_days": 3,
       "completed_days": 2,
       "matched_days": 2,
       "planned_dates": [
         "2026-10-20",
-        "2026-10-23"
+        "2026-10-23",
+        "2026-10-24"
       ],
       "completed_dates": [
         "2026-10-20",
@@ -577,10 +578,10 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
-      "confidence": "medium",
+      "phase": "Build",
+      "confidence": "low",
       "reason_codes": [
-        "PLAN_GAP_NEXT_WEEK"
+        "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
       ],
       "basis": {
         "stream_1": {
@@ -590,24 +591,24 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": null,
+          "planned_tss_delta": 0.28,
           "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": "Deload",
-      "phase_duration_weeks": 2,
+      "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
+    "phase_detected": "Build",
     "phase_triggers": [
-      "PLAN_GAP_NEXT_WEEK"
+      "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
     ],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
@@ -630,13 +631,13 @@
     "p_max": 899,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-24T12:00:49.318220",
+    "calculation_timestamp": "2026-10-24T15:58:22.699188",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 2,
       "activities_28d": 11,
-      "planned_workouts_7d": 2,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 212
@@ -1028,14 +1029,27 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 147745859,
+      "date": "2026-10-24",
+      "name": "Aerobic Floor",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 33,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "description": "Warmup\n- 10m Ramp 40-55% 90rpm\n\nMain Set\n- 50m 55% 92rpm\n\nCooldown\n- 10m Ramp 55-40% 90rpm"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 1,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 2.0,
